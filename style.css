@@ -1,21 +1,20 @@
 *{
   margin: 0;
   padding: 0;
-  background-color: #150E28;
-  font-family: 'Montserrat', sans-serif;
 }
 
 html body{
   width: 100vw;
   height: 100vh;
   background-color: #150E28;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar{
   width: 100vw;
   display: flex;
   flex-direction: row;
-  top: 4vh;
+  top: 7vh;
   position: relative;
   border-bottom: 0.001vw solid #d434fe;
 }
@@ -23,7 +22,7 @@ html body{
 .nav{
   display: flex;
   justify-self: center;
-  right: 15vw;
+  right: 6vw;
   position: relative;
 
 }
@@ -42,7 +41,9 @@ ul {
 }
 
 li {
-  margin: 10px;
+  margin: 1vw;
+  font-size: 1.1vw;
+  font-weight: bold;
 }
 
 a{
@@ -50,8 +51,7 @@ a{
     to right,
     #fe34ea, 
    #903AFF,
-    #ffff 50%
-  );
+    #ffff 50%);
   background-size: 200% 100%;
   background-position: -100%;
   display: inline-block;
@@ -85,10 +85,12 @@ a:hover::before{
 .logo{
   position: relative;
   float: left;
-  left: 5vw;
+  left: 3vw;
   color: white;
-  font-size: 2vw;
+  font-size: 3vw;
+  font-weight:bold;
 }
+
 
 .logo-text{
   color: #d434fe;
@@ -103,55 +105,156 @@ background-image: linear-gradient(to right, #fe34ea, #903AFF);
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-   margin-bottom: 4vh;
+  margin-bottom: 0;
   cursor: pointer;
   border-radius: 2px;
-  transition:2s;
+  transition:2s ease-out;
+  top: 1vh;
+  text-decoration: none;
 }
 
 .btn:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
     transition: color 0s;
 
 }
 
-.btn a:hover{
-  text-decoration: none;
-  transition: none; /* This line removes all transitions */
-  transition: color 0s;
+
+.a-none:hover::before {
+  width: 0;
+  transition: none;
+  transform: none;
 }
 
 
-a.a-none:hover{
-  text-decoration: none;
-  transition: none; /* This line removes all transitions */
-  transition: color 0s;
-}
-
-button a:before{
-  text-decoration: none;
-}
-
-button a:hover::before{
-  text-decoration: none;
+.a-none{
+  background-image: none;
+  background-color: white;
 }
 
 
-button a:hover{
-  text-decoration: none;
+.nav-icon-5 span{
+  display: none;
+}
+
+.nav-icon-5{
+  top: 0px;
+  width: 20px;
+  float: right;
+  right: 0px !important;
+   height: 30px;
+   margin: 10px 10px;
+   position: absolute;
+   cursor: pointer;
+   margin-right: 20px;
+   display: block;
+ }
+
+ .nav-icon-5 span{
+  background-color: #150E28;
+  color: #ffffff;
+   position: absolute;
+   border-radius: 2px;
+   transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+   width:100%;
+   height: 3px;
+   transition-duration: 500ms
+ }
+ .nav-icon-5 span:nth-child(1){
+  background-color: #ffffff;
+   width: 10px;
+   top:0px;
+   right: 1rem;
+ }
+ .nav-icon-5 span:nth-child(2){
+  background-color: #ffffff;
+   width: 25px;
+   top:10px;
+   right: 0;
+   opacity:1;
+ }
+ .nav-icon-5 span:nth-child(3){
+  background-color: #ffffff;
+   width: 10px;
+   bottom:7px;
+   right: 0px;
+ }
+ .nav-icon-5:not(.active):hover span:nth-child(1){
+   transform: rotate(-4deg) scaleY(1.1);
+ }
+ .nav-icon-5:not(.active):hover span:nth-child(2){
+   transform: rotate(3deg) scaleY(1.1);
+ }
+ .nav-icon-5:not(.active):hover span:nth-child(3){
+   transform: rotate(-5deg) scaleY(1.1);
+ }
+
+ .nav-icon-5.active span:nth-child(1){
+   transform: rotate(405deg);
+   top: 13px;
+   width: 15px;
+   right: 0px;
+ }
+ .nav-icon-5.active span:nth-child(2){
+   opacity:0;
+ }
+ .nav-icon-5.active span:nth-child(3){
+   transform: rotate(-405deg);
+   top: 13px;
+   width: 15px;
+   right: 0px;
+ }
+
+
+
+@media screen and (max-width: 768px) {
+ .navbar{
+  top:  0vh;
+ }
+
+  .nav-item{
+    position: fixed ;
+    left: -100%;
+    float: left;
+    top: 0px;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    background-color: #150E28;
+    }
+
+  .nav-list.active {
+    margin: 2.5rem 0;
+    left: 0;
+}
+
+   
+.btn{
+  align-self: center;
+}
+
+li{
+  font-size: 1rem;
+}
+
+li a{
+  float: left;
+  margin-left: 20vw;
+}
+
+.btn{
+  float: left;
+  margin-left: 20vw;
+}
+
+.nav-icon-5 span{
+  display: block;
 }
 
 
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
