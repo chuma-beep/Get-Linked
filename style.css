@@ -19,16 +19,9 @@ html body{
   border-bottom: 0.001vw solid #d434fe;
 }
 
-.nav{
-  display: flex;
-  justify-self: center;
-  right: 6vw;
-  position: relative;
-
-}
 
 .nav-list{
-  margin-right: 10vw;
+  margin-right: 2rem;
 }
 
 ul {
@@ -45,6 +38,13 @@ li {
   font-size: 1.1vw;
   font-weight: bold;
 }
+
+.nav-link{
+  margin-bottom: 0%;
+  margin-left: 0.5rem;
+}
+
+
 
 a{
   background-image: linear-gradient(
@@ -100,17 +100,17 @@ a:hover::before{
 background-image: linear-gradient(to right, #fe34ea, #903AFF);
   border: none;
   color: white;
-  padding: 12px 50px;
+  padding: 0.8rem 4.2rem;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: flex;
   font-size: 16px;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   cursor: pointer;
-  border-radius: 2px;
+  border-radius: 4px;
   transition:2s ease-out;
-  top: 1vh;
   text-decoration: none;
+  margin-left: 4rem;
 }
 
 .btn:hover{
@@ -205,18 +205,22 @@ background-image: linear-gradient(to right, #fe34ea, #903AFF);
    right: 0px;
  }
 
-
+/* make .nav-icon-5 have a circle when clicked*/
+.nav-icon-5.active span{
+  border-radius: 50% white;
+}
 
 @media screen and (max-width: 768px) {
- .navbar{
-  top:  0vh;
- }
+.navbar{
+  top: 0;
+}
 
-  .nav-item{
+  .nav-list{
     position: fixed ;
     left: -100%;
     float: left;
-    top: 0px;
+    top: 0rem;
+    padding-top:6rem; 
     flex-direction: column;
     width: 100%;
     border-radius: 10px;
@@ -225,9 +229,19 @@ background-image: linear-gradient(to right, #fe34ea, #903AFF);
     background-color: #150E28;
     }
 
-  .nav-list.active {
-    margin: 2.5rem 0;
+.nav-list.active{
+  left: 0;
+  .btn a{
+    margin-left: 0;
+  }
+  .logo{
+    display: none;
+  }
+}
+
+.nav-item{
     left: 0;
+    float: left;
 }
 
    
@@ -247,6 +261,7 @@ li a{
 .btn{
   float: left;
   margin-left: 20vw;
+
 }
 
 .nav-icon-5 span{

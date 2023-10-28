@@ -1,19 +1,10 @@
 const icons = document.querySelector('.icon');
 const navMenu = document.querySelector('.nav-list');
 
-icons.addEventListener('click', mobileMenu);
-
-function mobileMenu() {
+function mobileNav() {
     navMenu.classList.toggle('active');
     icons.classList.toggle("active");
 }
 
+icons.addEventListener('click', mobileNav);
 
-
-
-/*
-icons.forEach (icon => {  
-  icon.addEventListener('click', (event) => {
-    icon.classList.toggle("open");
-  });
-});*/
