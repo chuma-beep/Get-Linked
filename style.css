@@ -51,7 +51,7 @@ a{
     to right,
     #fe34ea, 
    #903AFF,
-    #ffff 50%);
+   #ffff 50%);
   background-size: 200% 100%;
   background-position: -100%;
   display: inline-block;
@@ -91,11 +91,12 @@ a:hover::before{
   font-weight:bold;
 }
 
-
+/* Add custom color to logo*/
 .logo-text{
   color: #d434fe;
 }
 
+/*Gradient button*/
 .btn {
 background-image: linear-gradient(to right, #fe34ea, #903AFF);
   border: none;
@@ -148,7 +149,7 @@ background-image: linear-gradient(to right, #fe34ea, #903AFF);
    cursor: pointer;
    margin-right: 20px;
    display: block;
- }
+   }
 
  .nav-icon-5 span{
   background-color: #150E28;
@@ -158,8 +159,10 @@ background-image: linear-gradient(to right, #fe34ea, #903AFF);
    transition: .3s cubic-bezier(.8, .5, .2, 1.4);
    width:100%;
    height: 3px;
-   transition-duration: 500ms
+   transition-duration: 500ms;
+
  }
+
  .nav-icon-5 span:nth-child(1){
   background-color: #ffffff;
    width: 10px;
@@ -196,8 +199,16 @@ background-image: linear-gradient(to right, #fe34ea, #903AFF);
    right: 0px;
  }
  .nav-icon-5.active span:nth-child(2){
-   opacity:0;
+  left: 60%; 
+  opacity:0;
+  animation: active-menu12-bar02 .8s forwards;
  }
+ @keyframes active-menu12-bar02 {
+  100% {
+    height: 0;
+  }
+}
+
  .nav-icon-5.active span:nth-child(3){
    transform: rotate(-405deg);
    top: 13px;
@@ -205,10 +216,32 @@ background-image: linear-gradient(to right, #fe34ea, #903AFF);
    right: 0px;
  }
 
-/* make .nav-icon-5 have a circle when clicked*/
-.nav-icon-5.active span{
-  border-radius: 50% white;
+
+ .nav-icon-5.active::after {
+  animation: active-menu12 .4s .25s forwards;
 }
+@keyframes active-menu12 {
+  0% {
+    border-color: transparent;
+    transform: rotate(0);
+  }
+  25% {
+    border-color: transparent #fff transparent transparent;
+  }
+  50% {
+    border-color: transparent #fff #fff transparent;
+  }
+  75% {
+    border-color: transparent #fff #fff #fff;
+  }
+  100% {
+  transform: rotate(-680deg);
+  border-radius: 50%;
+  border-image-source: linear-gradient(to top, #fe34ea, #903AFF);
+  border-image-slice: 5;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
 .navbar{
@@ -268,6 +301,20 @@ li a{
   display: block;
 }
 
+
+.nav-icon-5::after{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  display: block;
+  content: '';
+  width: 32px;
+  height: 32px;
+  margin: -5px 0 0 -5px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  transition: all .75s;
+}
 
 }
 
