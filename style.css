@@ -1,22 +1,26 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+
 }
 
 html body{
   width: 100vw;
   height: 100vh;
   background-color: #150E28;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
   box-sizing: border-box;
+  overflow-x: hidden;
+  background-image:
+   url("gallery/Getlinked (4)/Purple-Lens-Flare-PNG.png");
+   background-repeat: no-repeat;
+   @import url('https://fonts.googleapis.com/css2?family=Onest:wght@900&display=swap');
 }
-
-.navbar{
+  .navbar{
   width: 100vw;
   display: flex;
   flex-direction: row;
-  top: 7vh;
+  top: 1vh;
   position: relative;
   border-bottom: 0.001vw solid #d434fe;
 }
@@ -121,7 +125,6 @@ background-image: linear-gradient(to right, #fe34ea, #903AFF);
     transition: color 0s;
 
 }
-
 
 .a-none:hover::before {
   width: 0;
@@ -246,16 +249,53 @@ background-image: linear-gradient(to right, #fe34ea, #903AFF);
 
 /* Main page*/
 .container {
- width: 100%;
- display: column;
+ width: 100vw;
+ display: flex;
+ flex-direction: column;
   flex-wrap:nowrap;
   justify-content: center;
-
   margin: 0;
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
+
+.typewriter h3{
+  font-family: 'Onest', sans-serif;
+  font-weight: 100;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 10% }
+  to { width: 50% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  /* 50% { border-color: orange; } */
+}
+#typing{
+  width: 95vw;
+}
+
+#type-text{
+  color: white;
+  float: right;
+  right:9vw;
+}
+
+
+
 .box {
-  width: 100%;
+  width: 100vw;
   padding: 20px;
   border: 1px solid #ccc;
   padding: 0;
@@ -265,32 +305,69 @@ background-image: linear-gradient(to right, #fe34ea, #903AFF);
 height: 2rem;
 }
 .box-1{
-  margin-top: 12rem;
+  margin-top: 0rem;
   display: flex;
-  height: 100vh;
+  height: 80vh;
   color: #fff;
-  width: 100vw;
+  width: 99vw;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .inner-box{
-  width: 50%;
+  width: 49%;
   height: 100%;
-  border: 1px solid #ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+
+h1, #h1-text {
+ /*@font-face{font-family:clash display;font-style:normal;font-weight:900;src:local('Clash Display')
+    ,url(https://fonts.cdnfonts.com/s/65008/ClashDisplayBold.woff) format('woff')};*/
+font-family: "Montserrat", 'Clash Display';  
+  font-weight: 1200;
+  font-size:4rem;
+  margin-top: 5rem;
+  padding-top: 1rem;
+  padding-left: 3rem;
+  float: center;
+}
+#hero-p{
+  padding-left: 5rem;
+  padding-top: 3rem;
+}
+
+.time-count{
+  margin-top: 9rem;
+  padding-left: 3rem;
+}
+
+#hero-register-btn{
+  padding-top: 12rem;
+  padding-left: 10rem;
+}
+
 .inner-box-1{
   position: relative;
-  width: 50%;
-  height: 38.2rem;
-  background-image: url('gallery/Getlinked (4)/man-wearing-smart-glasses-touching-virtual-screen 1.png');
+  width: 55vw;
+  height: 74vh;
   background-size: cover;
   background-repeat: no-repeat;
-  border: 1px solid #ffff;
+  overflow: hidden;
+  /*background-image:
+   linear-gradient(to top, transparent, rgba(117, 19, 93, 0.73)),
+  url("gallery/Getlinked (4)/man-wearing-smart-glasses-touching-virtual-screen 1.png"); */
+  background-image: url("gallery/Getlinked (4)/man-wearing-smart-glasses-touching-virtual-screen 1.png");
+  /*background: linear-gradient(rgba(29, 38, 113, 0), rgba(195, 55, 100, 0)); */
+margin-top: 3rem;
+font-family: 'Onest', sans-serif;
 }
 
-
-
-
+#vr-man{
+ margin-top: 0rem;
+ margin-left: 5.5rem;
+}
 
 
 @media screen and (max-width: 768px) {
@@ -364,6 +441,12 @@ li a{
   border-radius: 50%;
   border: 2px solid transparent;
   transition: all .75s;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 }

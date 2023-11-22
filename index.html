@@ -2,18 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@900&display=swap" rel="stylesheet">  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <title>GETLINKED</title>
 </head>
 <body>
   <div class="navbar">
-   <p class="logo">get<span class="logo-text">linked</span></p>
+   <p class="logo" style="font-family: 'Onest', sans-serif;">get<span class="logo-text">linked</span></p>
    <nav class="nav">
    <ul class="nav-list">
       <li class="nav-item nav-link"><a href="#news">Timeline</a></li>
@@ -26,26 +31,29 @@
       <span class="bar"></span>
       <span class="bar"></span> 
       <span class="bar"></span>
-   </div>in
+   </div>
   </nav> 
   </div>
  
 
       <div class="container">
+        <div id="typing" class="typewriter"><h3 id="type-text"><i>Igniting a  Revolution in HR Innovation</i></h3></div>
           <div class="box box-1">
              <div class="inner-box"> 
-                <span class="hero-h1">
-                <h1>getlinked Tech</h1>
-             <h1> Hackathon 1.0<img src="gallery/Getlinked (4)/chain-9365116-7621444.png"><img src="gallery/Getlinked (4)/1f4a5.png">
+                <span>
+                <h1  id="h1-text" class="hero-h1" style="font-family: 'Onest', sans-serif;">getlinked Tech Hackathon <span class="logo-text">1.0</span><img src="gallery/Getlinked (4)/chain-9365116-7621444.png"><img src="gallery/Getlinked (4)/1f4a5.png">
              </span></h1>
 
-              <p>Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
-              <span class="register-btn"> <button class="btn"><a  class="a-none" href="#Register">Register</a></button></span>
+              <p id="hero-p">Participate in getlinked tech Hackathon 2023 stand <br> a chance to win a Big prize</p>
+              <span id="hero-register-btn"  class="register-btn"> <button class="btn"><a  class="a-none" href="#Register">Register</a></button></span>
 
+              <h2 id="countdown" class="time-count"></h2>
 
               </div>
               <div class="inner-box-1">
-              </div>
+               <div  id="vr-man"><img style="width:40vw; height:60vh;  margin-top: 0rem; margin-bottom: 0; "  src="gallery/Getlinked (4)/Image 1.png">
+              </div> 
+                </div>
           </div>
           <div class="box box-2">
               <h2>Div 2</h2>
@@ -84,7 +92,8 @@
               <p>Content for Div 10</p>
           </div>
       </div>
-
+    </div>
   <script src="app.js"></script>
+  <script src="countdown.js"></script>
 </body>
 </html>
