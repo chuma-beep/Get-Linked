@@ -27,7 +27,7 @@ html body{
 
 
 .nav-list{
-  margin-right: 2rem;
+  margin-right: 2vw;
 }
 
 ul {
@@ -47,7 +47,7 @@ li {
 
 .nav-link{
   margin-bottom: 0%;
-  margin-left: 0.5rem;
+  margin-left: 0.5vw;
 }
 
 
@@ -262,10 +262,10 @@ background-image: linear-gradient(to right, #fe34ea, #903AFF);
   font-family: 'Onest', sans-serif;
   font-weight: 100;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid; /* The typwriter cursor */
+  border-right: .15vw solid; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
+  letter-spacing: .15vw; /* Adjust as needed */
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
@@ -334,18 +334,18 @@ font-family: "Montserrat", 'Clash Display';
   float: center;
 }
 #hero-p{
-  padding-left: 5rem;
-  padding-top: 3rem;
+  padding-left: 5vw;
+  padding-top: 3vw;
 }
 
 .time-count{
-  margin-top: 9rem;
-  padding-left: 3rem;
+  margin-top: 9vw;
+  padding-left: 3vw;
 }
 
 #hero-register-btn{
-  padding-top: 12rem;
-  padding-left: 10rem;
+  padding-top: 12vw;
+  padding-left: 10vw;
 }
 
 .inner-box-1{
@@ -360,13 +360,13 @@ font-family: "Montserrat", 'Clash Display';
   url("gallery/Getlinked (4)/man-wearing-smart-glasses-touching-virtual-screen 1.png"); */
   background-image: url("gallery/Getlinked (4)/man-wearing-smart-glasses-touching-virtual-screen 1.png");
   /*background: linear-gradient(rgba(29, 38, 113, 0), rgba(195, 55, 100, 0)); */
-margin-top: 3rem;
+margin-top: 3vw;
 font-family: 'Onest', sans-serif;
 }
 
 #vr-man{
- margin-top: 0rem;
- margin-left: 5.5rem;
+ margin-top: 0vh;
+ margin-left: 5.5vw;
 }
 
 
@@ -380,7 +380,7 @@ font-family: 'Onest', sans-serif;
     left: -100%;
     float: left;
     top: 0rem;
-    padding-top:6rem; 
+    padding-top:6vw; 
     flex-direction: column;
     width: 100%;
     border-radius: 10px;
