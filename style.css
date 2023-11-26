@@ -1,7 +1,6 @@
 *{
   margin: 0;
   padding: 0;
-
 }
 
 html body{
@@ -49,7 +48,6 @@ li {
   margin-bottom: 0%;
   margin-left: 0.5vw;
 }
-
 
 
 a{
@@ -117,7 +115,7 @@ background-image: linear-gradient(to right, #fe34ea, #903AFF);
   border-radius: 4px;
   transition:2s ease-out;
   text-decoration: none;
-  margin-left: 4rem;
+  margin-left: 4vw;
 }
 
 .btn:hover{
@@ -302,7 +300,7 @@ background-image: linear-gradient(to right, #fe34ea, #903AFF);
   margin: 0;
 }
 .typing-text{
-height: 2rem;
+height: 2vw;
 }
 .box-1{
   margin-top: 0rem;
@@ -325,12 +323,12 @@ height: 2rem;
 h1, #h1-text {
  /*@font-face{font-family:clash display;font-style:normal;font-weight:900;src:local('Clash Display')
     ,url(https://fonts.cdnfonts.com/s/65008/ClashDisplayBold.woff) format('woff')};*/
-font-family: "Montserrat", 'Clash Display';  
+font-family: "Monteserat", 'Clash Display';  
   font-weight: 1200;
   font-size:4rem;
   margin-top: 5rem;
   padding-top: 1rem;
-  padding-left: 3rem;
+  padding-left: 5vw;
   float: center;
 }
 #hero-p{
@@ -339,8 +337,8 @@ font-family: "Montserrat", 'Clash Display';
 }
 
 .time-count{
-  margin-top: 9vw;
-  padding-left: 3vw;
+  margin-top: 7vw;
+  padding-left: 5vw;
 }
 
 #hero-register-btn{
@@ -358,10 +356,11 @@ font-family: "Montserrat", 'Clash Display';
   /*background-image:
    linear-gradient(to top, transparent, rgba(117, 19, 93, 0.73)),
   url("gallery/Getlinked (4)/man-wearing-smart-glasses-touching-virtual-screen 1.png"); */
-  background-image: url("gallery/Getlinked (4)/man-wearing-smart-glasses-touching-virtual-screen 1.png");
+  background-image:   url("gallery/Getlinked (4)/man-wearing-smart-glasses-touching-virtual-screen 1.png");
   /*background: linear-gradient(rgba(29, 38, 113, 0), rgba(195, 55, 100, 0)); */
 margin-top: 3vw;
 font-family: 'Onest', sans-serif;
+
 }
 
 #vr-man{
@@ -369,25 +368,51 @@ font-family: 'Onest', sans-serif;
  margin-left: 5.5vw;
 }
 
+#globe{
+  float: center; 
+  width:40vw;
+  height:60vh;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+#h1-text{
+  font-size: 4.5vw;
+}
+
+#h1-text img{
+  width: 5vw;
+  height: 5vh;
+}
+
+
+}
 
 @media screen and (max-width: 768px) {
 .navbar{
-  top: 0;
+  height: 5vh;
 }
 
   .nav-list{
-    position: fixed ;
+    position: fixed;
     left: -100%;
     float: left;
     top: 0rem;
     padding-top:6vw; 
     flex-direction: column;
     width: 100%;
+    height: 100vh;
     border-radius: 10px;
     text-align: center;
     transition: 0.3s;
     background-color: #150E28;
     }
+
+
+   .nav-list, #icon{
+    z-index: 1;
+   } 
 
 .nav-list.active{
   left: 0;
@@ -443,13 +468,155 @@ li a{
   transition: all .75s;
 }
 
+
+
+#type-text{
+  font-size: 2vw;
+}
+
 .box{
   display: flex;
   flex-direction: column;
   height: 100vh;
 }
+.inner-box{
+ height: 40vh;
+ width: 100vw;
+ margin-left: 4.5vw;
+
+}
+#countdown{
+  margin-top: 10vh;
+  margin-left: 12vw;
+}
+
+#h1-text{
+  font-size: 8vw;
+  margin-top: 1.5vh;
+}
+
+#hero-p{
+  font-size: 2vw;
+  margin-top: 1vh;
+  padding-top:1vh ;
+}
+
+
+.inner-box-1{
+width: 100vw;
+margin-top: 8vh
+}
+
+#globe{
+  display: flex;
+  margin-left: 25vw;
+}
+
 
 }
 
 
 
+@media screen and (max-width: 425px) {
+
+html, body{
+  overflow-x: hidden;
+}
+
+  #type-text{
+    font-size: 4vw;
+  }
+  
+  #hero-register-btn{
+  
+  }
+
+  .box{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+  }
+
+  .inner-box{
+   height: 35vh;
+   width: 100vw;
+   margin-left: 4.5vw;
+  
+  }
+  
+  #h1-text{
+    font-size: 8vw;
+    margin-top: 1.5vh;
+  }
+
+  #h1-text img{
+    width: 8vw;
+  }
+  
+  #hero-p{
+    font-size: 3vw;
+    margin-top: 1vh;
+    padding-top:1vh;
+    margin-left:5vw;
+  }
+    
+  .inner-box-1{
+  width: 98vw;
+  height: 40vh;
+  margin-top: 0vh;
+  padding-bottom: 0;
+ margin-left: 0;
+}
+  
+
+.time-count{
+    margin-top: 20vw;
+    padding-left: 17vw;
+  
+}
+
+#globe{
+  display: flex;
+  margin-left: 8vw;
+  margin-bottom: 90vh;
+  padding-bottom: 20vh;
+  width: 70vw;
+}
+
+
+#countdown{
+  margin-top:8vh;
+  margin-left: 0vw;
+}
+
+  }
+  
+  @media screen and (max-width: 320px) {
+    
+ 
+html, body{
+  overflow-x: hidden;
+}
+
+    .inner-box-1{
+      width: 95vw;
+      height: 31vh;
+      margin-top: 0vh;
+      padding-bottom: 0;
+     margin-left: 0;
+    }
+      
+    #globe{
+      display: flex;
+      margin-left: 5vw;
+      margin-bottom: 1vh;
+      padding-bottom: 30vh;
+      width: 80vw;
+
+    }
+
+    #countdown{
+      font-size: 7vw;
+    }
+
+  }
