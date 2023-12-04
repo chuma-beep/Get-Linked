@@ -1,3 +1,9 @@
+:root{
+  --purple:#d434fe;
+  --white: #fff;
+  --lightPurple:#fe34ea;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -6,7 +12,7 @@
 html body{
   width: 100vw;
   height: 100vh;
-  background-color: #150E28;
+  background-color:#150E28;
   font-family: 'Montserrat';
   box-sizing: border-box;
   overflow-x: hidden;
@@ -21,7 +27,7 @@ html body{
   flex-direction: row;
   top: 1vh;
   position: relative;
-  border-bottom: 0.001vw solid #d434fe;
+  border-bottom: 0.001vw solid var(--lightPurple);
 }
 
 
@@ -68,7 +74,7 @@ a{
 
 a:before{
   content: '';
-  background-color:  #fe34ea;
+  background-color:  var(--lightPurple);
   display: block;
   position: absolute;
   bottom: -3px;
@@ -344,6 +350,7 @@ font-family: "Monteserat", 'Clash Display';
 #hero-register-btn{
   padding-top: 12vw;
   padding-left: 10vw;
+  color: var(--lightPurple);
 }
 
 .inner-box-1{
@@ -373,6 +380,355 @@ font-family: 'Onest', sans-serif;
   width:40vw;
   height:60vh;
 }
+
+
+.box-2{
+  height: 40vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 99vw;
+box-sizing: border-box;
+}
+
+#box-2{
+  width: 49.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#box-21{
+  width: 49vw;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#h3-text{
+  padding-bottom:0vh;
+  margin: 3vw;
+  margin-bottom: 0;
+  font-size:2.5vw;
+  font-weight:600;
+}
+
+#h3-text span{
+  color: var(--lightPurple);
+}
+
+#box21-text{
+  padding: 3vw;
+}
+
+
+.box-3{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 99vw;
+  height: 40vw;
+}
+
+#box-3{
+  width: 32vw;
+  height: 50vh;
+  margin-left: 10vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+#box-31-text{
+  padding-left: 0vw;
+}
+
+
+#box-31{
+   width: 55vw;
+   height: 55vh;
+   padding-left: 1vw;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+.box-4{
+  display: flex;
+  flex-direction: row;
+  width: 99vw;
+  height: 65vw;
+}
+
+#box-4{
+  padding-top: 12vw;
+  padding-left: 2vw;
+  width: 52vw;
+  background-color: #150E28;
+}
+
+
+#box-41{
+  display: flex;
+  flex-direction: column;
+ flex-wrap: nowrap;
+  width: 40vw;
+  background-color: #150E28;
+  padding-left: 0vw;
+  color: white;
+}
+#box4-ul{
+  display: flex;
+ flex-direction: column;
+ height: 70vw;
+}
+
+#box4-text{
+  color: var(--lightPurple);
+  font-size: larger;
+}
+
+.btn-4 {
+  background-image: linear-gradient(to right, #fe34ea, #903AFF);
+  border: none;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition:2s ease-out;
+  text-decoration: none;
+  margin-left: 0;
+
+  }
+
+  
+  .btn-4 a{
+   
+  }
+  .btn-4:hover{
+    transform: scale(1.1);
+      transition: color 0s;
+  }  
+
+
+
+  #div5-btn{
+   height: 4vw;
+  align-items: center;
+   margin-left: 1vw;  
+}
+
+
+
+.box-5{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 99vw;
+  height: 60vw;
+}
+
+#box-5{
+  width: 50vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 10vw;
+}
+#box-5 h3{
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+#box-5-text{
+  margin-left: 9.5vw;
+align-self:first baseline;
+
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: var(--purple);
+  padding: none;
+  font-size: 2vw;
+  border: 0px transparent;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: flex;
+  margin: 2vh;
+  width: 40vw;
+}
+
+#drop-down.dropdown{
+  width: 31vw;
+  border-bottom: 2px solid #d434fe;
+}
+
+
+#drop-text{
+  align-self: center;
+  font-size: 1vw;
+  width: 30vw;
+  margin-bottom: 0;
+  border-bottom: 2px #fe34ea;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--purple);
+  width: 31vw;
+  margin-top: 4vh;
+  height:3vh;
+  min-width: 160px;
+  z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display:flex ;
+  flex-direction: column;
+
+  top: 0.5vw;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: none;
+}
+
+.dropbtn{
+  left: 0;
+  
+}
+
+#box-51{
+  width: 40vw;
+  height: 40vh;
+  padding-top: 3vw;
+}
+
+#drop-down{
+  width: 20vw;
+  height: 5vh;
+}
+
+.inner-box6{
+  height: 90vw;
+  background: linear-gradient(to right, transparent calc(50% + 1px), #150E28 calc(50% + 1px)), linear-gradient(to right, #150E28 calc(50% - 1px), #903AFF calc(50% - 1px));
+}
+
+
+
+.box-6{
+  width: 99vw;
+  height: 100vw;
+  top: 0%;
+  left: 5%;
+  -webkit-animation: slide 1s 1 ease-out
+}
+
+
+@-webkit-keyframes slide {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #150E28;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color:#fff;
+  /* font-size:  2vw; */
+  padding: 5px;
+  width: 100%;
+  margin: 100px auto 0
+}
+
+#text-num {
+  background-image: linear-gradient(to right, #fe34ea, #903AFF);
+  border-radius: 50%;
+    padding:1vw;
+    height: 2.8vw;
+    width: 2.8vw;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+  position: absolute;
+  margin: 0vw;
+  font-size: 1vw;
+  font-weight: 900; 
+  }
+
+/* #text-num p{
+  text-align: left;
+  align-self: center;
+} */
+
+#text-let-1{
+  display: flex;
+  flex-direction: column;
+  width: 33vw;
+  height: 5vw;
+  float: left;
+  left: 0%;
+  position:inherit;
+ padding-right: 1%;
+ margin-right: 20vw;
+}
+
+#text-let-1 h6{
+  font-size: 1vw;
+}
+
+
+#text-let-2{
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+}
+
 
 
 @media screen and (max-width: 1024px) {
