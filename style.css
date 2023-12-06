@@ -743,6 +743,126 @@ align-self:first baseline;
 
 }
 
+#box-7{
+  display: flex;
+  flex-direction: row
+  justify-content: ;
+  height: 70vw;
+}
+
+
+#box-7-1{
+  display: flex;
+   flex-direction: column;
+  color: white;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 10vh;
+  height: 20vw;
+  width: 35vw;
+  padding-left: 7vw;
+  margin-left: 15vw;
+}
+
+#box-7-1 h3 p{
+text-align: left;
+}
+
+
+#box-7-2{
+  display: flex;
+  align-items: center;
+  height: inherit;
+  width: 30%;
+}
+
+
+#medals{
+  display: flex;
+  flex-direction: column;
+  justify-content: ;
+  width: 70%;
+}
+
+#medalsbox{
+  display: flex;
+ flex-direction: row;
+ justify-content: flex-end;
+ width: 60vw;
+ padding-right: 0;
+ margin-right: 0%;
+ border: thick double #32a1ce;
+ right: 0;
+ margin-left: 8vw;
+}
+#Bronze{
+  width: 20vw;
+  height: 40vw;
+  border: thick double #32a1ce;
+}
+
+#bronze-medal{
+  display:flex ;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: flex-start;
+  color: white;
+  text-align: center;
+  line-height: 1.8;
+}
+#bronze-medal img{
+  align-self: center;
+}
+#bronze-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#bronze-text h1{
+  align-self: center;
+  margin-top: 0;
+  padding-right: vw;
+  line-height: 1.8;
+  font-size: 3vw;
+}
+
+
+#Gold{
+  width: 20vw;
+  height: 40vw;
+  border: thick double #32a1ce;
+}
+
+#Silver{
+  width: 20vw;
+  height: 40vw;
+  border: thick double #32a1ce;
+  margin-right: 0;
+  padding-right: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 1024px) {
