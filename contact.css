@@ -1,0 +1,314 @@
+:root {
+    --purple: #d434fe;
+    --white: #fff;
+    --lightPurple: #fe34ea;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #150E28;
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-image:
+      url("gallery/Getlinked (4)/Purple-Lens-Flare-PNG.png");
+    background-repeat: no-repeat;
+    @import url('https://fonts.googleapis.com/css2?family=Onest:wght@900&display=swap');
+  }
+  
+  .navbar {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    top: 1vh;
+    position: relative;
+    /* border-bottom: 0.001vw solid var(--lightPurple); */
+  }
+  
+  
+  .nav-list {
+    margin-right: 2vw;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+  }
+  
+  li {
+    margin: 1vw;
+    font-size: 1.1vw;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    margin-bottom: 0%;
+    margin-left: 0.5vw;
+  }
+  
+  
+  a {
+    background-image: linear-gradient(to right,
+        #fe34ea,
+        #903AFF,
+        #ffff 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 2px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:before {
+    content: '';
+    background-color: var(--lightPurple);
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    background-position: 0;
+  }
+  
+  a:hover::before {
+    width: 100%;
+  }
+  
+  
+  .logo {
+    position: relative;
+    float: left;
+    left: 3vw;
+    color: white;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+  
+  /* Add custom color to logo*/
+  .logo-text {
+    color: #d434fe;
+  }
+  
+  /*Gradient button*/
+  .btn {
+    background-image: linear-gradient(to right, #fe34ea, #903AFF);
+    border: none;
+    color: white;
+    padding: 0.8rem 4.2rem;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 2s ease-out;
+    text-decoration: none;
+    margin-left: 13vw;
+  }
+  
+  .btn:hover {
+    transform: scale(1.1);
+    transition: color 0s;
+  
+  }
+  
+  .a-none:hover::before {
+    width: 0;
+    transition: none;
+    transform: none;
+  }
+  
+  
+  .a-none {
+    background-image: none;
+    background-color: white;
+  }
+  
+  
+  .nav-icon-5 span {
+    display: none;
+  }
+  
+  .nav-icon-5 {
+    top: 0px;
+    width: 20px;
+    float: right;
+    right: 0px !important;
+    height: 30px;
+    margin: 10px 10px;
+    position: absolute;
+    cursor: pointer;
+    margin-right: 20px;
+    display: block;
+  }
+  
+  .nav-icon-5 span {
+    background-color: #150E28;
+    color: #ffffff;
+    position: absolute;
+    border-radius: 2px;
+    transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+    width: 100%;
+    height: 3px;
+    transition-duration: 500ms;
+  
+  }
+  
+  .nav-icon-5 span:nth-child(1) {
+    background-color: #ffffff;
+    width: 10px;
+    top: 0px;
+    right: 1rem;
+  }
+  
+  .nav-icon-5 span:nth-child(2) {
+    background-color: #ffffff;
+    width: 25px;
+    top: 10px;
+    right: 0;
+    opacity: 1;
+  }
+  
+  .nav-icon-5 span:nth-child(3) {
+    background-color: #ffffff;
+    width: 10px;
+    bottom: 7px;
+    right: 0px;
+  }
+  
+  .nav-icon-5:not(.active):hover span:nth-child(1) {
+    transform: rotate(-4deg) scaleY(1.1);
+  }
+  
+  .nav-icon-5:not(.active):hover span:nth-child(2) {
+    transform: rotate(3deg) scaleY(1.1);
+  }
+  
+  .nav-icon-5:not(.active):hover span:nth-child(3) {
+    transform: rotate(-5deg) scaleY(1.1);
+  }
+  
+  .nav-icon-5.active span:nth-child(1) {
+    transform: rotate(405deg);
+    top: 13px;
+    width: 15px;
+    right: 0px;
+  }
+  
+  .nav-icon-5.active span:nth-child(2) {
+    left: 60%;
+    opacity: 0;
+    animation: active-menu12-bar02 .8s forwards;
+  }
+  
+  @keyframes active-menu12-bar02 {
+    100% {
+      height: 0;
+    }
+  }
+  
+  .nav-icon-5.active span:nth-child(3) {
+    transform: rotate(-405deg);
+    top: 13px;
+    width: 15px;
+    right: 0px;
+  }
+  
+  
+  .nav-icon-5.active::after {
+    animation: active-menu12 .4s .25s forwards;
+  }
+  
+  @keyframes active-menu12 {
+    0% {
+      border-color: transparent;
+      transform: rotate(0);
+    }
+  
+    25% {
+      border-color: transparent #fff transparent transparent;
+    }
+  
+    50% {
+      border-color: transparent #fff #fff transparent;
+    }
+  
+    75% {
+      border-color: transparent #fff #fff #fff;
+    }
+  
+    100% {
+      transform: rotate(-680deg);
+      border-radius: 50%;
+      border-image-source: linear-gradient(to top, #fe34ea, #903AFF);
+      border-image-slice: 5;
+    }
+  }
+  
+
+
+  #main{
+    margin-top:10vw;
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+
+  #form-card{
+    border: 1px solid #903AFF;
+    width: 40vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #left{
+    padding: 5vh;
+  }
+
+  input{
+    border:  1px solid #FFFFFF;
+    border-radius: 4px;
+    width: 35vw;
+    margin: 2vw;
+    height: 3.5vh;
+    background-color: transparent;
+    /* text-align: left; */
+  }
+
+  input::placeholder{
+    
+  }
+
+
+  textarea{
+    border:  1px solid #FFFFFF;
+    background-color: transparent;
+    margin: 4vw;
+    align-items: center;
+    border-radius: 4px;
+    width: 30vw;
+    height: 15vh;
+}
