@@ -43,23 +43,23 @@
 
 
 
-    <div>
+    <div id="right">
         <h1>
             Get in touch
         </h1>
         
-        <p>Contact Information</p>
+        <p class="contact">Contact Information</p>
         <p>27, Alara Street Yaba 100012 Lagos State</p>
         <p>Call Us : 070767981819</p>
         <p>we are open from Monday-Friday 08:00am - 05:00pm</p>
         
-        <span>
+        <span id="contact-links">
             <span><p>share on</p></span>
             <p style="color: #D434FE;">Follow us</p>
-            <img src="gallery/Getlinked (4)/Vector (2).png" alt="instagram link">
-            <img src="gallery/Getlinked (4)/Vector (1).png" alt="twitter link">
-            <img src="gallery/Getlinked (4)/Vector.png" alt="facebook link">
-            <img src="gallery/Getlinked (4)/ri_linkedin-fill.png" alt="linkedin link">
+            <img class="link" src="gallery/Getlinked (4)/Vector (2).png" alt="instagram link">
+            <img class="link" src="gallery/Getlinked (4)/Vector (1).png" alt="twitter link">
+            <img class="link" src="gallery/Getlinked (4)/Vector.png" alt="facebook link">
+            <img class="link" src="gallery/Getlinked (4)/ri_linkedin-fill.png" alt="linkedin link">
         </span>        
         </div>
 
@@ -69,13 +69,21 @@
     <!--form-->
     <div id="form-card">
         <div id="left">
+            <h5>Questions or need assistance?
+                Let us know about it!
+            </h5>
+              <p id="form-text">Email us below with any question related to our event</p>
              <form>
                 <section class="head-text">
                 <div id="head-text">
                     </div>
                 </section>
+            
                 <section class="name-section">
                 <div id="name">
+                    <div id="Tname">
+                        <input type="text" class="label"   name="Tname" placeholder="TeamName" required>
+                          </div>
                     <div id="fname">
                 <input type="text" class="label"   name="fname" placeholder="FirstName" required>
                   </div>
@@ -98,6 +106,6 @@
             </div>
 </div>
 </main>
-
+<script src="app.js"></script>
 </body>
 </html>

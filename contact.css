@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwindcss components;
+@tailwindcss utilities;
+
 :root {
     --purple: #d434fe;
     --white: #fff;
@@ -13,12 +17,13 @@
     width: 100vw;
     height: 100vh;
     background-color: #150E28;
+    color:#FFFFFF;
     font-family: 'Montserrat';
     box-sizing: border-box;
     overflow-x: hidden;
-    background-image:
-      url("gallery/Getlinked (4)/Purple-Lens-Flare-PNG.png");
+    background-image: url("gallery/Getlinked (4)/Purple-Lens-Flare-PNG-7.png");
     background-repeat: no-repeat;
+    background-blend-mode: hard-light;
     @import url('https://fonts.googleapis.com/css2?family=Onest:wght@900&display=swap');
   }
   
@@ -28,8 +33,7 @@
     flex-direction: row;
     top: 1vh;
     position: relative;
-    /* border-bottom: 0.001vw solid var(--lightPurple); */
-  }
+    }
   
   
   .nav-list {
@@ -122,7 +126,7 @@
     border-radius: 4px;
     transition: 2s ease-out;
     text-decoration: none;
-    margin-left: 13vw;
+    margin-left: 4vw;
   }
   
   .btn:hover {
@@ -264,6 +268,7 @@
     }
   }
   
+/* main */
 
 
   #main{
@@ -273,42 +278,247 @@
     justify-content: space-evenly;
   }
 
+#main h1{
+    color: #fe34ea;
+}
+
+#right p{
+   width: 15vw;;
+}
+
+
+#right .contact{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    width: 2vw;
+    margin-bottom:1vw;
+}
 
   #form-card{
-    border: 1px solid #903AFF;
     width: 40vw;
-    height: 70vh;
+    height: 55vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
 
   #left{
     padding: 5vh;
   }
 
+#left h5{
+    width:23vw;
+    margin-left: 3.5vw;
+    color: #D434FE;
+}
+#Tname{
+    display: none;
+}
+#form-text {
+    display:none;;  
+}
+
+
+
   input{
     border:  1px solid #FFFFFF;
     border-radius: 4px;
-    width: 35vw;
-    margin: 2vw;
-    height: 3.5vh;
+    width: 30vw;
+    margin: 1vw;
+    height: 4vh;
+    margin-left: 3.5vw;
     background-color: transparent;
     /* text-align: left; */
   }
 
   input::placeholder{
-    
+
   }
 
 
   textarea{
     border:  1px solid #FFFFFF;
     background-color: transparent;
-    margin: 4vw;
+    margin: 2vw;
+    margin-left: 3.5vw;
     align-items: center;
     border-radius: 4px;
     width: 30vw;
-    height: 15vh;
+    height: 12vh;
+}
+
+.link{
+    margin: 0.5vw;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    body{
+      width: 100vw;
+    }
+    
+    .inner-box-1 {
+      position: relative;
+      width: 40vw;
+      height: 74vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      overflow: hidden;
+      /*background-image:
+       linear-gradient(to top, transparent, rgba(117, 19, 93, 0.73)),
+      url("gallery/Getlinked (4)/man-wearing-smart-glasses-touching-virtual-screen 1.png"); */
+      background-image: url("gallery/Getlinked (4)/man-wearing-smart-glasses-touching-virtual-screen 1.png");
+      /*background: linear-gradient(rgba(29, 38, 113, 0), rgba(195, 55, 100, 0)); */
+      margin-top: 3vw;
+      font-family: 'Onest', sans-serif;
+    
+    }
+    
+    
+    
+      .navbar {
+        height: 5vh;
+      }
+    
+      .nav-list {
+        position: fixed;
+        left: -100%;
+        float: left;
+        top: 0rem;
+        padding-top: 6vw;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        background-color: #150E28;
+      }
+    
+    
+      .nav-list,
+      #icon {
+        z-index: 1;
+      }
+    
+      .nav-list.active {
+        left: 0;
+    
+        .btn a {
+          margin-left: 0;
+        }
+    
+        .logo {
+          display: none;
+        }
+      }
+    
+      .nav-item {
+        left: 0;
+        float: left;
+      }
+    
+    
+      .btn {
+        align-self: center;
+      }
+    
+      li {
+        font-size: 1rem;
+      }
+    
+      li a {
+        float: left;
+        margin-left: 20vw;
+      }
+    
+      .btn {
+        float: left;
+        margin-left: 20vw;
+    
+      }
+    
+      .nav-icon-5 span {
+        display: block;
+      }
+    
+    
+      .nav-icon-5::after {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        display: block;
+        content: '';
+        width: 32px;
+        height: 32px;
+        margin: -5px 0 0 -5px;
+        border-radius: 50%;
+        border: 2px solid transparent;
+        transition: all .75s;
+      }
+    
+    
+    #main{
+        margin-top:15vw;
+        display:flex ;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 20vw;;
+    }
+    
+ #right{
+    display: none;
+ }
+
+ #form-card{
+    width: 60vw;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+input{
+    width: 50vw;
+}
+textarea{
+    width: 50vw;
+}
+
+  #left h5{
+    width: 29vw;
+    font-size: small;
+  }
+
+  .btn{
+    margin-top: 5vw;
+    margin-left: 15vw;
+    padding: 0.5rem 3.2rem;
+  }
+
+  #Tname{
+    display: contents;
+  }
+
+  #form-text{
+    display:contents ;
+    width: 5vw;
+    margin-left: 6vw;  
+
+}
+
+
 }
