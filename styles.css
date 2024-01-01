@@ -1,6 +1,3 @@
-@tailwind base;
-@tailwindcss components;
-@tailwindcss utilities;
 
 
 :root {
@@ -1019,7 +1016,7 @@ h1,
   margin: 10px;
 }
 .custom-border {
-  border-top-color: #150E28 !important;
+  border-top-color: #150E28     !important;
   border-left-width: 2px !important;
   border-left-color: purple !important;
   border-right-width: 2px !important;
@@ -1157,8 +1154,6 @@ background: rgba(217, 217, 217, 0.03);
   margin-bottom: 1vw;
 }
 
-
-
 #box10 {
   display: flex;
   flex-direction: column;
@@ -1212,20 +1207,6 @@ background: rgba(217, 217, 217, 0.03);
 #box10-3 {
   width: 20vw;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

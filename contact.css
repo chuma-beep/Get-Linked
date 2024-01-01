@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwindcss components;
-@tailwindcss utilities;
-
 :root {
     --purple: #d434fe;
     --white: #fff;
@@ -298,6 +294,10 @@ line-height: normal;
     margin-bottom:1vw;
 }
 
+#contact-links-btm{
+  display:none;
+}
+
   #form-card{
     width: 40vw;
     height: 55vh;
@@ -336,11 +336,12 @@ line-height: normal;
     height: 4vh;
     margin-left: 3.5vw;
     background-color: transparent;
+    padding: 1vw;
     /* text-align: left; */
   }
 
   input::placeholder{
-
+   color: #FFFFFF;
   }
 
 
@@ -352,7 +353,12 @@ line-height: normal;
     align-items: center;
     border-radius: 4px;
     width: 30vw;
-    height: 12vh;
+    height: 13vh;
+    padding: 2vw;
+}
+
+textarea::placeholder{
+  color: #FFFFFF;
 }
 
 .link{
@@ -487,20 +493,22 @@ line-height: normal;
     justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
-    background: rgba(255, 255, 255, 0.03);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: transparent;
+    box-shadow: none;
+    
   }
 
 input{
-    width: 50vw;
+    width: 70vw;
+    margin-bottom: 3vw;
 }
 textarea{
-    width: 50vw;
+    width: 70vw;
 }
 
   #left h5{
-    width: 29vw;
-    font-size: small;
+    width: 32vw;
+    font-size: 1.5;
   }
 
   .btn{
@@ -514,11 +522,47 @@ textarea{
   }
 
   #form-text{
-    display:contents ;
-    width: 5vw;
-    margin-left: 6vw;  
+    display:flex;
+    width: 55vw;
+    margin-left: 4vw;  
+    font-size: 2vw;
 
 }
 
 
+#contact-links-btm{
+  display:block;
+}
+
+
+}
+
+@media screen and (max-width: 425px){
+
+  #left h5{
+    width: 62vw;
+   
+  }
+
+#form-text{
+  font-size: 2.5vw;
+}
+
+
+input{
+    width: 80vw;
+    padding:5vw;
+  }
+
+  textarea{
+    width: 80vw;
+    padding:5vw;
+  }
+
+  input::placeholder,
+textarea::placeholder {
+    color: #FFFFFF;
+    font-size: small;
+  }
+  
 }

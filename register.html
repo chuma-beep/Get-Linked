@@ -40,96 +40,116 @@
 
    <!--Main menus-->
    <div id="main">
+
     <!-- intro and logo -->
+    <div id="box-head">
+      <h2>Register</h2>
+    </div>   
+
+
         <div id="intro">
-            <img src="Assets/img/Logo (1).png" alt="logo">
-            <article>
-            <h1>For Individuals</h1>
-            <!--text-->
-             <p id="intro-p">
-                Start benefiting from the wellnness experience. For
-                companies looking on increasing productivity, and improving
-                organization wellness.
-             </p>
-            </article> 
-       </div>
+            <img src="gallery/Getlinked (4)/3d-graphic-designer-showing-thumbs-up-png 1.png" alt="3d graphic designer showing thumbs up ">
+              </div>
        
     
     <!--form section-->
+    <div id="form">
         <div id="form-box"> 
-            <form action="/submit_application" method="post">
-    
-      
-            <div id="fname">
-              <label id="label" for="fname">First Name</label><br>
-              <input type="text" class="input" name="fname" required>
+          <form action="/submit_application" method="post">
+            <div id="box-header">
+              <h2>Register</h2>
+              <p>be part of this movement</p>
+              <h1>CREATE YOUR ACCOUNT</h1>
+            </div>
+  
+            <div id="Tname">
+              <label id="label" for="Tname">Team Name</label><br>
+              <input type="text" class="input" name="Tname" placeholder="Enter the name of of your group" required>
              </div>
-             <div id="lname">
-              <label id="label"  for="lname">Last Name</label><br>
-              <input type="text"  class="input"  name="lname" >
+
+
+             <div id="Phone">
+              <label id="label"  for="Phone">Phone</label><br>
+              <input type="text"  class="input" placeholder="Enter your phone number" name="phone" required>
              </div>
-    <!--gender-->
-             <div id="gender">
-              <label id="label"  for="gender">Gender</label><br>
-              <select  name="gender" class="input" required>
-                <option id="option" value="" disabled selected>Select your gender</option>
-                <option  id="option" value="male">Male</option>
-                <option id="option" value="female">Female</option>
+
+             <!---Email -->
+             <div id="Email">
+              <label id="label"  for="lname">Email</label><br>
+              <input type="text"  class="input" placeholder="Enter your email address" name="email" required>
+             </div>
+    <!--Projetc Topic-->
+
+    <div id="Project">
+      <label id="label"  for="project">Project Topic</label><br>
+      <input type="text"  class="input" placeholder="what is your group project topic" name="project" required>
+     </div>
+
+
+    <!--category-->
+            <div id="category">
+              <label id="label"  for="category">Category</label><br>
+              <select  name="category" class="input" required>
+                <option id="option" value="" disabled selected>Select your category</option>
+                <option  id="option" value="enviroment">environment</option>
+                <option id="option" value="industry">industry</option>
                 <option id="option" value="other">Other</option>
               </select>
              </div>
       
-    
-    <!--date of birth-->
-    <div id="dob">
-      <section>
-         <label id="label"  for="dob">Date of Birth</label><br>
-         <input type="date"  class="input" name="dob" required>
-           </section>
+        <!--category-->
+        <div id="Group">
+          <label id="label"  for="Group">Group Size</label><br>
+          <select  name="category" class="input" required>
+            <option  id="option" aria-placeholder="select" value="" disabled selected >Select</option>
+            <option  id="option" value="enviroment">environment</option>
+            <option id="option" value="industry">industry</option>
+            <option id="option" value="other">Other</option>
+          </select>
          </div>
-    
-              <!-- Weight Input -->
-          <div id="weight" >
-            <section>
-            <label id="label" for="weight">Weight(KG)</label><br>
-           <input type="number" id="weight-box "  class="input" name="weight" placeholder="Enter Weight" required>
-           </section>
-          </div>
-    <!---height-->
-            <div id="height">
-              <section>
-            <label id="label" for="height">Height(CM)</label><br>
-          <input type="number" id="height-box"  class="input"   name="height" placeholder="Enter Height here..." required>
-          <br>
-          </section>
-            </div>
-         <!--activity-->
-          <div id="activity">
-            <label for="Activity Level"> Activity level</label><br>
-            <select id="Activity" class="activityinput" name="activity" required>
-              <option value="" disabled selected>Select Level</option>
-                <option value="regular">regular</option>
-                <option value="not so regular">not to regular</option>
-                <option value="once once sha">once once sha</option>
-             </select>
-            </div>
-       <!--password-->
-           <div id="password">
-            <label for="password">Password</label><br>
-            <input type="password" class="password" name="password" required><br>
-           </div>
+
+         <i>Please review your registration details before submitting</i>
+         <div id="label">
+         <label>
+          <input id="checkbox" type="checkbox" name="myCheckbox"> I agreed with the event terms and conditions and privacy policy
+      </label>
+         </div>
     
           <!--register-->
            <div id="register">
-            <button class="btn" type="submit">Register</button>
+            <button id="button"  type="submit" ><a href="popup-box">Submit</a></button>
            </div>
-           <p id="form-text">By clicking Register, you agree to our <a href="url">Terms of Use</a> and our <a href="url">Privacy Policy</a></p>
         </form>
     
         </div>
     
-    
+   </div> 
     </div>
+
+
+
+<!--POP UP BOX-->
+  <div id="popup-box" class="modal">
+  <div class="content">
+
+       <img src="gallery/Getlinked (4)/successful-man-3025713-2526911 1.png" alt="successfully done">
+
+     <h3 style="height: 5vw; width: 156vw;" >Congartulations <br>you have successfully Registered!</h3>
+        <p>yes, it was easy and you did it!</p>
+        <p>check your mail box for next step <img src="gallery/Getlinked (4)/1531010992wink-emoji-woman-png 1.png"></p>
+          <div>
+            <button id="button-back" class="closePopup" type="back">Submit</button>
+           </div>
+      
+          </div>
+</div>
+
+
+
+
+
+
+
 <script src="app.js"></script>
 </body>
 </html>
