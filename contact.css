@@ -343,6 +343,14 @@ line-height: normal;
   input::placeholder{
    color: #FFFFFF;
   }
+   input:focus, textarea:focus, select:focus
+   {
+   border: 1px solid var(--lightPurple);
+   box-shadow: 0 0 3px var(--lightPurple);
+   outline-offset: 0px;
+   outline: none;
+   color: #FFFFFF;
+    }
 
 
   textarea{
@@ -361,9 +369,18 @@ textarea::placeholder{
   color: #FFFFFF;
 }
 
-.link{
-    margin: 0.5vw;
+
+
+
+    /* margin: 0.5vw;
+} */
+
+
+/* Styles for the checkbox */
+input[type="checkbox"] {
+  background-color: transparent;
 }
+
 
 
 

@@ -400,6 +400,7 @@ margin-right: 3vw;
 
  input{
   border:none;
+  padding: 5px;
 }
 
 input:focus, textarea:focus, select:focus
@@ -408,8 +409,12 @@ border: 1px solid var(--lightPurple);
 box-shadow: 0 0 3px var(--lightPurple);
 outline-offset: 0px;
 outline: none;
+z-index: 100;
 }  
 
+input::placeholder{
+  color: #FFFFFF;
+}
 
 
 
@@ -548,6 +553,21 @@ p {
   transform: scale(1.1);
   transition: color 0s;
 
+}
+
+
+/* Styles for the checkbox */
+input[type="checkbox"] {
+   background-color: transparent;
+}
+
+.check{
+  background-color: transparent;
+}
+
+
+i{
+  color: #d434fe;
 }
 
 
