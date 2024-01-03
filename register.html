@@ -55,7 +55,7 @@
     <!--form section-->
     <div id="form">
         <div id="form-box"> 
-          <form action="/submit_application" method="post">
+          <form action=/submitapplication" method="post" name="form">
             <div id="box-header">
               <h2>Register</h2>
               <p>be part of this movement</p>
@@ -64,32 +64,32 @@
   
             <div id="Tname">
               <label id="label" for="name">Team Name</label><br>
-              <input type="text" class="input" name="Tname" placeholder="Enter the name of of your group" required>
+              <input type="text" class="input" name="Tname" placeholder="Enter the name of of your group" required oninput="formcheck()">
              </div>
 
 
              <div id="Phone">
               <label id="label"  for="phone">Phone</label><br>
-              <input type="text"  class="input" placeholder="Enter your phone number" name="phone" required>
+              <input type="text"  class="input" placeholder="Enter your phone number" name="phone" required oninput="formcheck()">
              </div>
 
              <!---Email -->
              <div id="Email">
               <label id="label"  for="email">Email</label><br>
-              <input type="text"  class="input" placeholder="Enter your email address" name="email" required>
+              <input type="text"  class="input" placeholder="Enter your email address" name="email" required oninput="formcheck()">
              </div>
     <!--Projetc Topic-->
 
     <div id="Project">
       <label id="label"  for="project">Project Topic</label><br>
-      <input type="text"  class="input" placeholder="what is your group project topic" name="project" required>
+      <input type="text"  class="input" placeholder="what is your group project topic" name="project" required oninput="formcheck()">
      </div>
 
 
     <!--category-->
             <div id="category">
               <label id="label"  for="category">Category</label><br>
-              <select  name="category" class="input" required>
+              <select  name="category" class="input" required onchange="formcheck()">
                 <option id="option" value="" disabled selected>Select your category</option>
                 <option  id="option" value="enviroment">environment</option>
                 <option id="option" value="industry">industry</option>
@@ -100,8 +100,8 @@
         <!--category-->
         <div id="Group">
           <label id="label"  for="Group">Group Size</label><br>
-          <select  name="category" class="input" required>
-            <option  id="option" aria-placeholder="select" value="" disabled selected >Select</option>
+          <select  name="category" class="input" required onchange="formcheck()">
+            <option  id="option" aria-placeholder="select" value="" disabled selected  >Select</option>
             <option  id="option" value="1-5 people">1-5 people</option>
             <option id="option" value="1-10 people">1-10 people</option>
             <option id="option" value="10-upwards">10-upwards</option>
@@ -112,7 +112,7 @@
          <div id="label">
       
          <label>
-          <input   id="checkbox" type="checkbox" name="myCheckbox"> I agreed with the event terms and conditions and privacy policy
+          <input   id="checkbox" type="checkbox" name="myCheckbox" required oninput="formcheck()"> I agreed with the event terms and conditions and privacy policy
       </label>
               </div>
     

@@ -14,9 +14,43 @@ function mobileNav() {
 icons.addEventListener('click', mobileNav);
 
 
-//for pop up box
+// //function to check if form is complete
+function formcheck(){
+    var form = document.forms["form"]
+    var inputs = form.querySelectorAll('input, select, textarea')
+    var cansubmit = true
 
+    for (var i = 0; i < inputs.length; i++) {
+        var input = inputs[i]
+
+        if (input.tagName.toLowerCase() === 'select') {
+            // For dropdowns
+            if (input.value === "") {
+                cansubmit = false
+            }
+        } else if (input.type === 'checkbox') {
+            // For checkboxes
+            if (!input.checked) {
+                cansubmit = false
+            }
+        } else {
+            // For text inputs
+            if (input.value.length === 0) {
+                cansubmit = false
+            }
+        }
+    }
+
+    document.getElementById('button').disabled = !cansubmit
+}
+
+window.onload = formcheck
+
+
+//for pop up box
    button.addEventListener('click', function () {
+    event.preventDefault();
+    
     myPopup.classList.add("show")
    })
    closePopup.addEventListener('click', function (){
@@ -27,4 +61,3 @@ icons.addEventListener('click', mobileNav);
     myPopup.classList.remove("show")
 }
    })
-
