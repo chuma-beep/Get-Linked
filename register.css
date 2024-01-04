@@ -634,7 +634,11 @@ i{
 }
 
 
-
+@media only screen and (max-width: 1440px){
+  #Phone{
+    margin-left: 1vw;
+  }
+}
 
 
 
