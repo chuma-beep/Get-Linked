@@ -658,9 +658,14 @@ h1,
 .dropdown:hover .dropdown-content {
   display: flex;
   flex-direction: column;
-
-  top: 0.5vw;
+    top: 0.5vw;
 }
+
+.dropdown:hover{
+  margin-top: 2vw;
+  transition: 0.5s;
+}
+
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
@@ -797,7 +802,7 @@ h1,
   padding-top: 3vh;
   height: 5vw;
   width: 100vw;
-  padding-left: 25vw;
+  padding-left: 1vw;
   margin-bottom: 8vh;
   ;
 }
@@ -813,8 +818,14 @@ h1,
 
 .box7-img {
   height: 30vw;
-  width: 30vw;
+  width: 50vw;
   margin-left: 5vw;
+  margin-right: 15vw;
+}
+
+
+#img7-box{
+  width: 50vw;
 }
 
 #box-7-2 {
@@ -828,8 +839,10 @@ h1,
 
 #medals {
   display: flex;
-  flex-direction: column;
-  width: 70%;
+  flex-direction: row;
+  right: 0;
+  float: inline-end;
+  float: right;
 }
 
 #medalsbox {
@@ -842,7 +855,7 @@ h1,
   padding-right: 0%;
   margin-right: 0%;
   right: 0;
-  margin-left: 15vw;
+  margin-left: 25vw;
 }
 
 #Bronze {
