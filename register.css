@@ -576,6 +576,18 @@ i{
 }
 
 
+.follow-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 20vw;
+  flex-wrap: nowrap;
+}
+
+
+
+
+
 
 
 /* 
