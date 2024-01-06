@@ -689,10 +689,7 @@ h1,
   height: 5vh;
 }
 
-.inner-box6 {
-  height: 90vw;
-  background: linear-gradient(to right, transparent calc(50% + 1px), #150E28 calc(50% + 1px)), linear-gradient(to right, #150E28 calc(50% - 1px), #903AFF calc(50% - 1px));
-}
+
 
 
 
@@ -701,6 +698,7 @@ h1,
   height: 100vw;
   top: 0%;
   left: 5%;
+  color: #FFFFFF;
   -webkit-animation: slide 1s 1 ease-out
 }
 
@@ -1041,19 +1039,6 @@ h1,
 .first-column {
   border-left-width: 0 !important;
 }
-
-/* .custom-border {
-  border-top-color: transparent !important;
-  border-left-color: #8B5CF6 !important;
-  border-right-color: #150E28 !important;  
-  border-bottom-color: transparent !important;
-}
-
-
-.first-column .custom-border {
-  border-right-color: transparent !important;
-} */
-
 
 
 

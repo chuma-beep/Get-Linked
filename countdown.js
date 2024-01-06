@@ -1,5 +1,5 @@
 //count down date
-let countDownDate = new Date('December 30, 2023 23:59:60')
+let countDownDate = new Date('January 30, 2024 23:59:60')
 
 
 //update tcount down
