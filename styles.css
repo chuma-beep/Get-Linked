@@ -505,7 +505,6 @@ h1,
   padding-top: 12vw;
   padding-left: 2vw;
   width: 52vw;
-  background-color: #150E28;
 }
 
 
@@ -514,7 +513,6 @@ h1,
   flex-direction: column;
   flex-wrap: nowrap;
   width: 40vw;
-  background-color: #150E28;
   padding-left: 0vw;
   color: white;
 }
@@ -604,7 +602,9 @@ h1,
   border: 0px transparent;
   cursor: pointer;
 }
-
+.dropbtn:active{
+  rotate: 90deg;
+}
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
@@ -647,6 +647,7 @@ h1,
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+
 }
 
 /* Change color of dropdown links on hover */
@@ -663,8 +664,10 @@ h1,
 
 .dropdown:hover{
   margin-bottom: 3vw;
-  margin-top: -2vw;
+  height: 1vw;
+  z-index: 1;
   transition: 0.5s;
+
 }
 
 
@@ -673,7 +676,7 @@ h1,
   background-color: none;
 }
 
-.dropbtn {
+.dropbtn:hover {
   left: 0;
 
 }
@@ -788,7 +791,7 @@ h1,
 #box-7 {
   display: flex;
   flex-direction: column;
-  height: 70vw;
+  height: 60vw;
 }
 
 
@@ -812,7 +815,8 @@ h1,
 }
 
 #box-7-1 p {
-  margin-left: 17vw;
+  margin-left: 16vw;
+  width: 29vw;
 }
 
 .box7-img {
@@ -842,6 +846,7 @@ h1,
   right: 0;
   float: inline-end;
   float: right;
+  height: 70vh;
 }
 
 #medalsbox {
@@ -979,77 +984,31 @@ h1,
   height: 12vw;
 }
 
-
-#box8-grid {
-  border: 2px solid #d434fe;
-  height: 45vh;
-  width: 90vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-self: center;
-  border-radius: 10px;
+#box8-1 p{
+  width: 35vw;
+  line-break: strict;
 }
 
-.grid-container {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  width: 50vw;
-  height: 30vh;
+#box8-1 h3{
+  font-size:2vw ;
 }
-
-/* Optional: Style for demonstration purposes */
-.grid-item {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  color: #f1f1f1;
-  width: 20vw;
-  height: 15vh;
+#sponsors{
+  border-radius: 5px;
+border: 1px solid #D434FE;
+background: rgba(255, 255, 255, 0.01);
+width: 80vw;
+height: 50vh;
+flex-shrink: 0;
+display: flex;
+align-items: center;
+justify-content: center;
 }
-
-
-#grid-item1 {
-	/* border-left-color: rgb(126 34 206);
-  border-right-color: rgb(126 34 206); */
-  border-bottom-width: 5px;
-  width: 15vw;
-}
-
-
-#grid-item2 {
-  width: 18vw;
-   height: 10vw;
-  border-collapse: separate;
-  margin: 10px;
-}
-.custom-border {
-  border-top-color: #150E28     !important;
-  border-left-width: 2px !important;
-  border-left-color: purple !important;
-  border-right-width: 2px !important;
-  border-right-color: #150E28 !important;
-  border-bottom-width: 2px !important;
-  border-bottom-color: #150E28 !important;
-}
-.first-column {
-  border-left-width: 0 !important;
-}
-
-
-
-
 
 
 .box-9 {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  /* align-items: flex-start; */
   width: 100vw;
   height: 80vw;
   color: #FFFFFF;
@@ -1067,6 +1026,8 @@ h1,
   display: flex;
   flex-direction: column;
   margin-left: 5vw;
+  background-image: url("gallery/Getlinked (4)/Vector (6).png");
+  background-repeat: no-repeat;
 }
 
 #img91 {
@@ -1104,16 +1065,31 @@ background: rgba(217, 217, 217, 0.03);
 
 
 #box9-policy {
-  width: 40vw;
+  width: 30vw;
   margin-left: 5vw;
   margin-top: 10vh;
   display: flex;
   flex-direction: column;
-
+     h3{
+      font-size: 3vw;
+      margin-bottom: 1vw;
+     }
   p {
     width: 21vw;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: Montserrat;
+    font-size: 0.8vw;
+  }
+  .span9{
+    color: #D434FE;
+  }
+  .p2{
+    color: #FFF;
+    font-size: 1vw;
   }
 }
+
+
 
 
 #div9-btn {
@@ -1248,25 +1224,40 @@ background: rgba(217, 217, 217, 0.03);
 @media screen and (max-width: 768px) {
 body{
   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.box-1{
+  display: flew;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100vh;
+  margin-bottom: 10vw;
 }
 
 .inner-box-1 {
   position: relative;
-  width: 40vw;
+  width: 100vw;
   height: 74vh;
-  background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
-  /*background-image:
-   linear-gradient(to top, transparent, rgba(117, 19, 93, 0.73)),
-  url("gallery/Getlinked (4)/man-wearing-smart-glasses-touching-virtual-screen 1.png"); */
   background-image: url("gallery/Getlinked (4)/man-wearing-smart-glasses-touching-virtual-screen 1.png");
-  /*background: linear-gradient(rgba(29, 38, 113, 0), rgba(195, 55, 100, 0)); */
+  background-size: 50% 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-left: 50vw;
   margin-top: 3vw;
   font-family: 'Onest', sans-serif;
 
 }
 
+
+img#globe{
+  margin-left: 0vw;
+}
 
 
   .navbar {
@@ -1784,10 +1775,17 @@ height: 130vw;
   html,
   body {
     overflow-x: hidden;
+    width: 100vw;
+    box-sizing: border-box;
+    align-items: center;
   }
 
   #type-text {
     font-size: 4vw;
+  }
+  .navbar{
+    width: 70vw;
+    font-size: 1.5vw;
   }
 
   #hero-register-btn {}
@@ -1849,6 +1847,76 @@ height: 130vw;
     margin-top: 8vh;
     margin-left: 0vw;
   }
+
+/*for 2nd div*/
+#box2{
+  width: 100vw;
+  font-size: 1vw;
+}
+
+
+
+  #box21-text{
+    font-size: 2vw;
+    width: 40vw;
+    line-height: 15.5px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+
+  .box-4{
+    height: 140vh;
+  }
+
+
+
+  #box31-text{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.5px; /* 211.538% */
+  }
+
+  #box-31{
+    width: 70vw;
+    height: auto;
+  }
+
+
+  #box4-ul{
+    height: 80vh;
+  }
+
+  #box4-ul li{
+    font-size: 2.5vw;
+  }
+
+
+
+
+  .box-5{
+    margin-top: 10vh;
+    height: 100vh;
+    margin-bottom: 10vh;
+  }
+
+.box-6{
+  font-size: 1vw;
+}
+
+
+#box-51{
+  margin-top: 15vh;;
+  height: 40vh;
+}
+
 
 }
 
