@@ -2093,6 +2093,7 @@ background: rgba(144, 58, 255, 0.12);
 
 #box9{
   margin-top: 15vh;
+
 }
 
 #box9-policy h2{
@@ -2244,6 +2245,85 @@ article{
 
 
 }
+
+#box91{
+  display: flex;
+   height: auto;
+  width: 100vw;
+  flex-direction: column;
+}
+
+
+
+#box91 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+ flex-direction: column;
+   justify-content: center;
+   padding-left:10vw ;
+  background-image: url("gallery/Getlinked (4)/Vector (6).png");
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+#box10{
+  margin-top: 50vh;
+  width: 100vw;
+}
+
+
+
+.box-10{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+#box101 p{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  font-style: normal;
+}
+
+.terms{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+#terms p{
+width: 100vw;
+}
+
+
+#box10-2{
+ align-self: center;
+  width: 80vw;
+  font-size: 3vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
