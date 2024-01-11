@@ -2124,14 +2124,6 @@ line-height: 170.9%; /* 20.508px */
 }
 
 
-/* img.box7-img{
-  width: 80vw;
-  height:80vh;
-} */
-
-
-
-
   #medals{
     height: 50vh;
   }
@@ -2380,7 +2372,7 @@ article{
 #box101 p{
   display: flex;
   flex-direction: row;
-  width: 100vw;
+  width: 50vw;
   font-style: normal;
 }
 
