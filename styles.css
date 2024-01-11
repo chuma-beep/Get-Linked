@@ -992,6 +992,17 @@ h1,
 #box8-1 h3{
   font-size:2vw ;
 }
+
+#h3-8{
+  font-size: 2.5vw;
+  margin-bottom: 1vw;
+  font-family: Clash Display;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}
 #sponsors{
   border-radius: 5px;
 border: 1px solid #D434FE;
@@ -1070,11 +1081,7 @@ background: rgba(217, 217, 217, 0.03);
   margin-top: 10vh;
   display: flex;
   flex-direction: column;
-     h3{
-      font-size: 3vw;
-      margin-bottom: 1vw;
-     }
-  p {
+   p {
     width: 21vw;
     color: rgba(255, 255, 255, 0.75);
     font-family: Montserrat;
