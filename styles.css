@@ -359,6 +359,21 @@ a:hover::before {
   justify-content: space-between;
 }
 
+.inline-container{
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+.inline-container img {
+  display: inline;
+  white-space: nowrap;
+}
+
+.logo-text{
+  display: inline-block;
+  white-space: nowrap;
+}
 
 h1,
 #h1-text {
@@ -366,7 +381,7 @@ h1,
     ,url(https://fonts.cdnfonts.com/s/65008/ClashDisplayBold.woff) format('woff')};*/
   font-family: "Monteserat", 'Clash Display';
   font-weight: 1200;
-  font-size: 4rem;
+  font-size: 3.5vw;
   margin-top: 5rem;
   padding-top: 1rem;
   padding-left: 5vw;
