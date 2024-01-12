@@ -12,8 +12,8 @@
 }
 
 html body {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 
   background-color: #150E28;
   font-family: 'Montserrat';
@@ -1579,6 +1579,7 @@ height: 130vw;
   }
 
 
+
   .box-4 {
     min-height: 200vw;
     z-index: -1;
@@ -1590,13 +1591,16 @@ height: 130vw;
   .box4 {
     margin-top: 5vw;
     align-items: center;
-    margin-left: 10vw;
-
+   width: 100vw;
+    display: flex;
+    justify-content: center;
     img {
-      width: 70vw;
+      width: 40vw;
     }
 
   }
+
+
 
   .box-41 {
     text-align: center;
