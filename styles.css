@@ -1547,7 +1547,7 @@ height: 130vw;
     flex-direction: column-reverse !important;
     justify-content: center;
     align-items: center;
-    margin-top: vw;
+
     height: 120vw;
     margin-bottom: 10vw;
   }
@@ -1998,6 +1998,7 @@ text-align: center;
 
 
 
+
   #box21-text{
     font-size: 2vw;
     width: 40vw;
@@ -2017,6 +2018,8 @@ text-align: center;
      font-style: normal;
      font-weight: 700;
   }
+
+
 
   .box-4{
     height: 140vh;
