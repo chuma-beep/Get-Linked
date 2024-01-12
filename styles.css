@@ -32,6 +32,7 @@ html body {
   top: 1vh;
   position: fixed;
   border-bottom: 0.001vw solid var(--lightPurple);
+  background-color: #903AFF;
 }
 
 
