@@ -29,7 +29,6 @@ html body {
   width: 100vw;
   display: flex;
   flex-direction: row;
-  top: 1vh;
   position: fixed;
   border-bottom: 0.001vw solid var(--lightPurple);
   background-color: #150E28;
