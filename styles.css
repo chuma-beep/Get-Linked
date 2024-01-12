@@ -30,7 +30,7 @@ html body {
   display: flex;
   flex-direction: row;
   top: 1vh;
-  position: relative;
+  position: fixed;
   border-bottom: 0.001vw solid var(--lightPurple);
 }
 
