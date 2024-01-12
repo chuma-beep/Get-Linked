@@ -14,6 +14,7 @@
 html body {
   width: 100vw;
   height: 100vh;
+
   background-color: #150E28;
   font-family: 'Montserrat';
   box-sizing: border-box;
@@ -327,14 +328,16 @@ a:hover::before {
   right: 9vw;
 }
 
-
+.container{
+padding-left: 0%;
+}
 
 .box {
   width: 100vw;
-  padding: 20px;
-  border: 1px solid #ccc;
   padding: 0;
   margin: 0;
+  border-bottom: 1px solid;
+  border-color: rgba(255, 255, 255, 0.18);
 }
 
 .typing-text {
@@ -599,14 +602,17 @@ h1,
 }
 
 #box-5 h3 {
+  font-size: 2vw;
   margin-top: 2vw;
   margin-bottom: 2vw;
+  text-align: left;
+  ;
 }
 
 #box-5-text {
   margin-left: 9.5vw;
   align-self: first baseline;
-
+  margin-bottom: 5rem;
 }
 
 .dropbtn {
@@ -709,8 +715,6 @@ h1,
 
 
 
-
-
 .box-6 {
   width: 99vw;
   height: 100vw;
@@ -763,10 +767,6 @@ h1,
   font-weight: 900;
 }
 
-/* #text-num p{
-  text-align: left;
-  align-self: center;
-} */
 
 #text-let-1 {
   display: flex;
@@ -950,14 +950,10 @@ h1,
   justify-content: center;
   height: 25vw;
   width: 15vw;
-  ;
   color: white;
-  /* text-align: center; */
   line-height: 5vh;
   background: rgba(255, 255, 255, 0.55);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  /* backdrop-filter: blur( 14.5px );
-  -webkit-backdrop-filter: blur( 14.5px ); */
   backdrop-filter: blur(19px) saturate(180%);
   -webkit-backdrop-filter: blur(19px) saturate(180%);
   background-color: rgba(144, 58, 255, 0.1);
@@ -1248,10 +1244,12 @@ background: rgba(217, 217, 217, 0.03);
 
 
 .follow-links img{
-  width: 2vw;
-  height: 2vh;
+  width: 1vw;
+  height: 1.5vh;
   margin-left: 1vw;
+  margin-top: 0.5vw;
 }
+
 
 #box10-3{
   margin-top: 5vw;
@@ -1282,9 +1280,10 @@ width: vw;
 
 
 .foot-txt img{
-width: 1.5vw;
-height: 2vh;
+width: 1vw;
+height: 1.5vh;
 margin-right: 1vw;
+margin-top: 0.3vw;
 }
 
 
@@ -2009,6 +2008,14 @@ text-align: center;
     font-weight: 400;
   }
 
+ #box2-txt3{
+    font-size: 3vw;
+     font-style:normal;
+     text-align: left;
+     font-family: Clash Display;
+     font-style: normal;
+     font-weight: 700;
+  }
 
   .box-4{
     height: 140vh;
