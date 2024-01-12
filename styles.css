@@ -1993,6 +1993,7 @@ text-align: center;
 #box2{
   width: 100vw;
   font-size: 1vw;
+  align-items: center;
 }
 
 
@@ -2069,7 +2070,8 @@ text-align: center;
 font-weight: 400;
 line-height: 27.5px;
  text-align: center;
- font-size: 3.5vw;
+ /* font-size: 3.5vw; */
+ margin-bottom: 2vh;
 }
 
 #box-51{
@@ -2082,6 +2084,12 @@ line-height: 27.5px;
 #box-5 {
   margin-left: 0vw;
   width: 100vw;
+}
+
+#h3-5{
+  font-size: 3vw !important;
+   width: 100vw;
+   
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -2129,9 +2137,9 @@ line-height: 27.5px;
     margin-bottom: 10vh;
   }
 
-  #h3-text{
-    font-size: 2vw;
-  }
+  /* #h3-text{
+    font-size: 3vw;
+  } */
 
   #box-5-text{
     margin-left: 0;;
@@ -2210,6 +2218,7 @@ background: rgba(144, 58, 255, 0.12);
   font-style: normal;
   text-align: center;
   width: 50vw;
+  line-height: normal;
 }
 
 
@@ -2258,7 +2267,7 @@ background: rgba(144, 58, 255, 0.12);
   margin-bottom: 0vw;
   margin-top: 8vw;
 font-style: normal;
-line-height: 216.4%;
+line-height: 4vw;
 width: 45vw;
 align-self:center;
 font-size: 2.5vw;
