@@ -1,4 +1,6 @@
-
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 :root {
   --purple: #d434fe;
@@ -36,6 +38,7 @@ html body {
   border-bottom: 0.001vw solid var(--lightPurple);
   background-color: #150E28;
   z-index: 1;
+  top: 0% !important;
 }
 
 
@@ -729,16 +732,6 @@ h1,
 }
 
 
-@-webkit-keyframes slide {
-  0% {
-    width: 0;
-  }
-
-  100% {
-    width: 100%;
-  }
-}
-
 .text {
   display: flex;
   flex-direction: row;
@@ -839,14 +832,14 @@ h1,
 
 .box7-img {
   height: 30vw;
-  width: 50vw;
+  width: 60vw;
   margin-left: 8vw;
   margin-right: 18vw;
 }
 
 
 #img7-box{
-  width: 55vw;
+  width: 60vw;
 }
 
 #box-7-2 {
@@ -871,9 +864,9 @@ h1,
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 45vw;
+  width: 40vw;
   height: 30vh;
-  margin-top: 18vw;
+  margin-top: 15vh;
   padding-right: 0%;
   margin-right: 0%;
   right: 0;
@@ -1867,6 +1860,17 @@ text-align: center;
     flex-direction: column;
     height: 200vw;
     justify-content: center;
+  }
+
+  #box91{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+   justify-content: center;
+  }
+
+  #img91{
+    align-items: center;
   }
 
   #box9-policy {
