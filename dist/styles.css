@@ -778,12 +778,21 @@ h1,
 .container6 h3{
   position: absolute ;
  width: 40px;
+ height: 40px;
  border-radius: 50%;
  right: -20px;
- top: 32px;
  z-index: 10;
- background-image: linear-gradient();
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ font-style: normal;
+ border-radius: 26.5px;
+ border: 10px solid #150E28;
+ padding: 1vw;
+ background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
 }
+
 
 
 .left-container h3{
