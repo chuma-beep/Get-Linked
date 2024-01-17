@@ -753,8 +753,9 @@ h1,
     background:transparent;
     animation: movedown 1s linear forwards;
     opacity: 0;
-    
+
 }
+
 @keyframes movedown{
   0%{
     opacity: 1;
@@ -807,6 +808,16 @@ color: #D434FE;
 
 .left-container{
   left: 0;
+  h1{
+    color: #D434FE;
+font-family: Montserrat;
+font-size:1.5vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: left;
+padding-left: 0%;
+}
 }
 
 .left-container h1{
@@ -819,6 +830,10 @@ color: #D434FE;
   right: 50%;
   h1{
     color: #D434FE;
+    color: #D434FE;
+font-family: Montserrat;
+font-size: 1.5vw;
+line-height: normal;
   }
 }
 
@@ -827,8 +842,8 @@ color: #D434FE;
 
 .container6 h3{
   position: absolute ;
- width: 40px;
- height: 40px;
+ width: 53px;
+ height: 53px;
  border-radius: 50%;
  right: -34px;
  z-index: 10;
@@ -853,7 +868,7 @@ color: #D434FE;
 .timeline::after {
   content: '';
   position: absolute;
-  width: 6px;
+  width: 4px;
   height: 100vw;
   background-color:#D434FE;
   top: 0px;
@@ -1465,8 +1480,8 @@ margin-top: 0.3vw;
 
 .container6 h3{
   position: absolute ;
- width: 40px;
- height: 40px;
+ width: 53px;
+ height: 53px;
  border-radius: 50%;
  right: -26.5px;
  z-index: 10;
@@ -1490,7 +1505,7 @@ margin-top: 0.3vw;
 .timeline::after {
   content: '';
   position: absolute;
-  width: 6px;
+  width: 4px;
   height: 100%;
   background-color:#D434FE;
   top: 0;
