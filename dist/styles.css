@@ -751,7 +751,21 @@ h1,
   position: relative;
     width: 50%;
     background:transparent;
+    animation: movedown 1s linear forwards;
+    opacity: 0;
 }
+@keyframes movedown{
+  0%{
+    opacity: 1;
+    transform: translateY(-30px);
+  }
+  100%{
+    opacity: 1;
+    transform: translaateY(0px);
+  }
+}
+
+
 
 .text-box{
   padding:20px 30px;
