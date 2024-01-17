@@ -753,6 +753,7 @@ h1,
     background:transparent;
     animation: movedown 1s linear forwards;
     opacity: 0;
+    
 }
 @keyframes movedown{
   0%{
@@ -808,10 +809,20 @@ color: #D434FE;
   left: 0;
 }
 
+.left-container h1{
+  text-align: left;
+  color: #D434FE;
+  font-style: normal;
+}
 
 .right-container{
   right: 50%;
+  h1{
+    color: #D434FE;
+  }
 }
+
+
 
 
 .container6 h3{
@@ -836,6 +847,8 @@ color: #D434FE;
 .left-container h3{
   left: -25px;
 }
+
+
 
 .timeline::after {
   content: '';
