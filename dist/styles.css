@@ -757,14 +757,23 @@ h1,
   padding:20px 30px;
   background: transparent;
   position: relative;
-  border-radius: 6px;
-  font-size: 15px;
+  color: #FFF;
+
 }
+
+.text-box h2{
+  font-family: Montserrat;
+font-size: 1.4vw;
+font-style: normal;
+font-weight: 400;
+line-height: 170.9%; 
+color: #D434FE;
+}
+
 
 
 .left-container{
   left: 0;
-
 }
 
 
