@@ -2,6 +2,17 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    screens: {
+      'tablet': '820px',
+      // => @media (min-width: 820px) { ... }
+
+      'laptop': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'desktop': '1280px',
+      // => @media (min-width: 1280px) { ... }
+    },
+
     colors: {
       transparent: 'transparent',
       current: 'currentColor',

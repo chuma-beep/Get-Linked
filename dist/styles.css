@@ -785,8 +785,6 @@ h1,
 }
 
 
-
-
 .text-box{
   padding:20px 30px;
   background: transparent;
@@ -816,7 +814,6 @@ color: #D434FE;
 }
 
 
-
 .container6 h3{
   position: absolute ;
  width: 40px;
@@ -834,7 +831,6 @@ color: #D434FE;
  padding: 1vw;
  background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
 }
-
 
 
 .left-container h3{
@@ -862,14 +858,6 @@ color: #D434FE;
     height: 100%;
   }
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -1909,6 +1897,7 @@ height: 130vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 5%;
   }
 
 
