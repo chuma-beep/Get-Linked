@@ -828,6 +828,7 @@ padding-left: 0%;
 
 .right-container{
   right: 50%;
+  text-align: right;
   h1{
     color: #D434FE;
     color: #D434FE;
@@ -835,6 +836,7 @@ font-family: Montserrat;
 font-size: 1.5vw;
 line-height: normal;
   }
+ 
 }
 
 
@@ -1540,6 +1542,12 @@ body{
 
 
 
+.container{
+  width: 100vw;
+  padding-left: 0%;
+}
+
+
 .box-1{
   display: flew;
   flex-direction: column;
@@ -1922,8 +1930,6 @@ height: 130vw;
   }
 
 
-
-
   .box-6 {
     width: 100vw;
     display: flex;
@@ -1949,11 +1955,31 @@ height: 130vw;
   }
 }
 
+.text-box h1{
+  width: 100vw !important;
+  text-align: left !important;
+  left: -100vw !important;
+  padding-left: 0%;
+}
+
+
+.text-box h2{
+  width: 100vw !important;
+  float: left;
+  left: 4vw !important;
+  padding-left: 0% !important;
+}
+
+
+
 .timeline::after{
   left: 0px;
 }
 
 .container6{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
   width: 100%;
   padding-left: 0px;
   padding-right: 0px;
@@ -1967,6 +1993,13 @@ height: 130vw;
 }
 .left-container{
 left: 0%;
+font-style: normal;
+align-items: start;
+width: 100vw;
+align-self: flex-start;
+h2{
+  left: 25px;
+}
 }
 
 .left-container h3{
@@ -1976,24 +2009,10 @@ left: 0%;
   left: -20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.container6 h2{
+  margin-top: 5vw;
+  text-align: start;
+}
 
 
   #box-7 {
