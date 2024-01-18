@@ -1483,7 +1483,7 @@ margin-top: 0.3vw;
  width: 53px;
  height: 53px;
  border-radius: 50%;
- right: -26.5px;
+ right: -32px;
  z-index: 10;
  align-items: center;
  display: flex;
@@ -1492,15 +1492,19 @@ margin-top: 0.3vw;
  font-style: normal;
  border-radius: 50%;
  border: 10px solid #150E28;
- padding: 1vw;
+ padding: 1.5vw;
  background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
 }
 
 
 
 .left-container h3{
-  left: -21px;
+  left: -30px;
 }
+
+/* .right-container h3{
+
+} */
 
 .timeline::after {
   content: '';
@@ -1926,12 +1930,25 @@ height: 130vw;
     flex-direction: column;
     justify-content: center;
     padding-left: 5%;
+    margin-top: 10vw;
   }
 
 
 .timeline{
   margin: 100vw;
+  
 }
+
+.right-container{
+  align-items: flex-end;
+  text-align: left;
+  margin-left: 98.5vw;
+  h3{
+  text-align: left;
+  left: -23vw;
+  }
+}
+
 .timeline::after{
   left: 0px;
 }
@@ -1951,7 +1968,11 @@ height: 130vw;
 .left-container{
 left: 0%;
 }
-.left-container h3, .right-container h3{
+
+.left-container h3{
+  left: -28px;
+}
+.right-container h3 {
   left: -20px;
 }
 
