@@ -737,6 +737,7 @@ h1,
    padding: 0%;
    align-items: center;
    padding-left: 25vw;
+   height: 180vh;
 }
 
 
@@ -751,7 +752,7 @@ h1,
   align-items: center;
   justify-content:center;
  height: 130vh;
-  margin-top: 30vh;
+  margin-top: 0vh;
 }
 
 .container6{
@@ -763,7 +764,6 @@ h1,
     background:transparent;
     animation: movedown 1s linear forwards;
     opacity: 0;
-    
 }
 
 @keyframes movedown{
@@ -801,7 +801,8 @@ h1,
   margin-top: 5vw;
   width: 100vw;
   font-size: 2vw;
-  padding-left: 22vw;
+  padding-left: 12vw;
+  margin-bottom: 5vw;
   color: #FFF;
 font-family: "Clash Display";
 font-size: 32px;
@@ -810,10 +811,13 @@ font-weight: 700;
 line-height: 0%; /* 0px */
 }
 
+.box6-text h1{
+  margin-left: 12vw;
+}
 
 .box6-text p{
   font-size: 1vw;
-  width:3 0vw;
+  width:30vw;
   color: #FFF;
 text-align: center;
 font-family: Montserrat;
@@ -821,6 +825,7 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 172.4%; /* 24.136px */
+margin: 10vh;
 }
 
 .text-box{
@@ -1003,8 +1008,10 @@ line-height: normal;
 #box-7 {
   display: flex;
   flex-direction: column;
-  height: 75vw;
-  padding-bottom: 5vh;}
+  height: 70vw;
+  padding-bottom: 5vh;
+margin-top: 20vh;
+}
 
 #box-7-1 {
   display: flex;
@@ -1519,6 +1526,10 @@ margin-top: 0.3vw;
     font-size: 1.2vw;
     padding: 5vw;
   }
+/* .box-6{
+  margin-bottom: 10vh;
+  height: 100vh;;
+} */
 
 }
 
@@ -1529,7 +1540,9 @@ margin-top: 0.3vw;
   align-items: center;
 }
 
-
+/* .conatainer6{
+  margin-bottom: 10vw;
+} */
 .container6 h3{
   position: absolute ;
  width: 53px;
