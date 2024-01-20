@@ -431,11 +431,10 @@ h1,
   /*background-image:
    linear-gradient(to top, transparent, rgba(117, 19, 93, 0.73)),
   url("gallery/Getlinked (4)/man-wearing-smart-glasses-touching-virtual-screen 1.png"); */
-  background-image: url("gallery/Getlinked (4)/man-wearing-smart-glasses-touching-virtual-screen 1.png");
+  background-image: url("/gallery/Getlinked (4)/man-wearing-smart-glasses-touching-virtual-screen 1.png");
   /*background: linear-gradient(rgba(29, 38, 113, 0), rgba(195, 55, 100, 0)); */
   margin-top: 3vw;
   font-family: 'Onest', sans-serif;
-
 }
 
 #vr-man {
@@ -839,7 +838,7 @@ margin-top: 2vh;
 
 }
 
-.text-box h2{
+.text-box h1{
   font-family: Montserrat;
 font-size: 1.4vw;
 font-style: normal;
@@ -848,6 +847,9 @@ line-height: 170.9%;
 color: #D434FE;
 }
 
+.text6{
+  padding-left: 10vw;
+}
 
 
 .left-container{
@@ -920,13 +922,13 @@ line-height: normal;
   width: 4px;
   height: 100vw;
   background-color:#D434FE;
-
   bottom: 0;
   left: 25.2%;
   margin-left: -3px;
   z-index: -10;
   animation: moveline 6s linear forwards;
 }
+
 @keyframes moveline{
   0%{
     height: 0;
@@ -949,7 +951,6 @@ line-height: normal;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   color: #fff;
-  /* font-size:  2vw; */
   padding: 5px;
   width: 100%;
   margin: 100px auto 0
@@ -1542,9 +1543,6 @@ margin-top: 0.3vw;
   align-items: center;
 }
 
-/* .conatainer6{
-  margin-bottom: 10vw;
-} */
 .container6 h3{
   position: absolute ;
  width: 53px;
@@ -1562,7 +1560,6 @@ margin-top: 0.3vw;
  padding: 1.5vw;
  background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
 }
-
 
 
 .left-container h3{
@@ -1592,10 +1589,15 @@ margin-top: 0.3vw;
 
 
 
-/* 
-@media  and (max-width: 1024px) {
+
+@media screen and (max-width: 1024px) {
   
-} */
+  
+
+
+
+
+}
 
 
 
@@ -2091,7 +2093,6 @@ h2{
     height: 150vw;
     justify-content: flex-start;
     margin-top: 100vw;
-    
   }
 
 
