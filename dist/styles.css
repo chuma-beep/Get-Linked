@@ -804,20 +804,20 @@ h1,
   padding-left: 12vw;
   margin-bottom: 5vw;
   color: #FFF;
-font-family: "Clash Display";
+  font-family: Montserrat;
 font-size: 32px;
 font-style: normal;
-font-weight: 700;
 line-height: 0%; /* 0px */
 }
 
 .box6-text h1{
   margin-left: 12vw;
+  font-weight: 700;
 }
 
 .box6-text p{
   font-size: 1vw;
-  width:30vw;
+  width:25vw;
   color: #FFF;
 text-align: center;
 font-family: Montserrat;
@@ -825,7 +825,9 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 172.4%; /* 24.136px */
-margin: 10vh;
+margin-bottom: 10vh;
+margin-left: 12vw;
+margin-top: 2vh;
 }
 
 .text-box{
