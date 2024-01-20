@@ -29,9 +29,14 @@
     flex-direction: row;
     top: 1vh;
     position: relative;
+    padding-right: 10vw;
     }
   
-  
+  #back{
+float: left;
+left: -30vw;
+  }
+
   .nav-list {
     margin-right: 2vw;
   }
@@ -96,10 +101,11 @@
   .logo {
     position: relative;
     float: left;
-    left: 3vw;
+    left: 0vw;
     color: white;
     font-size: 3vw;
     font-weight: bold;
+    
   }
   
   /* Add custom color to logo*/
@@ -410,89 +416,19 @@ input[type="checkbox"] {
     
     }
     
-    
-    
-      .navbar {
-        height: 5vh;
-      }
-    
-      .nav-list {
-        position: fixed;
-        left: -100%;
-        float: left;
-        top: 0rem;
-        padding-top: 6vw;
-        flex-direction: column;
-        width: 100%;
-        height: 100vh;
-        border-radius: 10px;
-        text-align: center;
-        transition: 0.3s;
-        background-color: #150E28;
-      }
-    
-    
-      .nav-list,
-      #icon {
-        z-index: 1;
-      }
-    
-      .nav-list.active {
-        left: 0;
-    
-        .btn a {
-          margin-left: 0;
-        }
-    
-        .logo {
-          display: none;
-        }
-      }
-    
-      .nav-item {
-        left: 0;
-        float: left;
-      }
-    
-    
-      .btn {
-        align-self: center;
-      }
-    
-      li {
-        font-size: 1rem;
-      }
-    
-      li a {
-        float: left;
-        margin-left: 20vw;
-      }
-    
-      .btn {
-        float: left;
-        margin-left: 20vw;
-    
-      }
-    
-      .nav-icon-5 span {
-        display: block;
-      }
-    
-    
-      .nav-icon-5::after {
-        position: absolute;
-        top: 10%;
-        left: 10%;
-        display: block;
-        content: '';
-        width: 32px;
-        height: 32px;
-        margin: -5px 0 0 -5px;
-        border-radius: 50%;
-        border: 2px solid transparent;
-        transition: all .75s;
-      }
-    
+  #back{
+float: left;
+left: 8vw;
+  }
+
+
+
+    .logo{
+      display: none;
+    }
+    .nav{
+      display: none;
+    }
     
     #main{
         margin-top:15vw;
