@@ -2003,6 +2003,7 @@ height: 130vw;
 
   .box-6 {
     width: 100vw;
+    height: 180vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2030,7 +2031,7 @@ height: 130vw;
   width: 100vw !important;
   text-align: left !important;
   left: -100vw !important;
-  padding-left: 0%;
+  padding-left: 2%;
 }
 
 
