@@ -1601,7 +1601,7 @@ margin-top: 0.3vw;
 
 
 
-@media screen and (max-width: 850px) and (min-width: 320px) {
+@media screen and (max-width: 850px){
 
 html body {
   width: 100vw;
@@ -1647,6 +1647,15 @@ html body {
   justify-content: flex-start;
   height: 100vh;
   margin-bottom: 10vw;
+  margin-left: 0%;
+}
+
+.inner-box{
+  font-style: normal;
+}
+
+#hero-p{
+  font-style: normal;
 }
 
 .inner-box-1 {
@@ -1657,13 +1666,13 @@ html body {
   overflow: hidden;
   background-image: url("gallery/Getlinked (4)/man-wearing-smart-glasses-touching-virtual-screen 1.png");
   background-size: 50% 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  margin-left: 50vw;
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start; */
+  margin-left: 40vw;
   margin-top: 3vw;
   font-family: 'Onest', sans-serif;
-
+  
 }
 
 
@@ -1880,6 +1889,7 @@ height: 130vw;
 
 
   .box-4 {
+     width: 100vw;
     min-height: 200vw;
     z-index: -1;
     display: flex;
@@ -2311,6 +2321,19 @@ text-align: center;
     align-items: center;
   }
 
+  .container{
+    margin-left: 0%;
+  }
+
+  /* #countdown{
+    font-size: 5vw;
+  } */
+
+  h2#countdown.time-count{
+    font-size: 5vw;
+}
+
+
   #type-text {
     font-size: 4vw;
   }
@@ -2378,6 +2401,8 @@ text-align: center;
     margin-top: 8vh;
     margin-left: 0vw;
   }
+
+
 
 /*for 2nd div*/
 #box2{
