@@ -1638,7 +1638,10 @@ html body {
    padding-left: 0%;
 } */
 
-
+#main{
+  width: 100vw;
+  align-self: center;
+}
 
 .container{
   width: 100vw;
