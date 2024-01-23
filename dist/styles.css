@@ -17,16 +17,21 @@
 html body {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
   background-color: #150E28;
   font-family: 'Montserrat';
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   overflow-x: hidden;
   background-image:
     url("gallery/Getlinked (4)/Purple-Lens-Flare-PNG.png");
   background-repeat: no-repeat;
   @import url('https://fonts.googleapis.com/css2?family=Onest:wght@900&display=swap');
 }
+
+
 
 .navbar {
   width: 100vw;
@@ -273,12 +278,19 @@ a:hover::before {
 }
 
 /* Main page*/
+
+
+#main{
+  width: 100vw;
+  align-self: center;
+}
+
 .container {
   width: 100vw;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
+
   margin: 0;
   margin-top: 1rem;
   align-items: center;
@@ -302,6 +314,7 @@ a:hover::before {
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
+
 
 /* The typing effect */
 @keyframes typing {
@@ -341,8 +354,7 @@ a:hover::before {
 .container{
   justify-content:center ;
 align-items: center;
-width: max-content;
-margin-left: 9vw;
+width: 100%;
 
 }
 
@@ -586,14 +598,11 @@ h1,
 }
 
 
-
 #div5-btn {
   height: 4vw;
   align-items: center;
   margin-left: 1vw;
 }
-
-
 
 .box-5 {
   display: flex;
