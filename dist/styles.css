@@ -1602,7 +1602,7 @@ margin-top: 0.3vw;
 
 @media screen and (max-width: 1024px) {
   
-  
+   
 
 
 
@@ -1611,7 +1611,7 @@ margin-top: 0.3vw;
 
 
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 850px) and (-webkit-min-device-pixel-ratio: 1) {
 
 html body {
   width: 100vw;
