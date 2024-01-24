@@ -1980,6 +1980,7 @@ height: 130vw;
   #box-5 {
     margin-left: 0vw;
     width: 100vw;
+
   }
 
   /* The container <div> - needed to position the dropdown content */
@@ -1989,6 +1990,7 @@ height: 130vw;
     margin: 3vh;
     width: 60vw;
     padding-bottom: 5vw;
+
   }
 
   #drop-down.dropdown {
@@ -2010,10 +2012,11 @@ height: 130vw;
 
   #drop-text {
     align-self: center;
-    font-size: 3vw;
+    font-size: 2.4vw;
     width: 60vw;
     margin-bottom: 0;
     border-bottom: 2px #fe34ea;
+
   }
 
   .dropbtn {
@@ -2060,9 +2063,8 @@ height: 130vw;
 
 
 .timeline{
-  margin: 100vw;
-  
-}
+  margin: 10vw;
+ }
 
 .right-container{
   align-items: flex-end;
@@ -2585,12 +2587,56 @@ line-height: 27.5px;
 
 .box-6{
   font-size: 1vw;
+  height: 180vh;
 }
 
 
 #box-51{
   margin-top: 15vh;;
   height: 40vh;
+}
+
+
+.container6{
+  height: 30vh;
+
+}
+
+
+.box-6{
+  margin-left: 25vw;
+}
+
+
+.container6 h1{
+  font-size: 3vw;
+
+}
+
+
+.timeline{
+  height: 100vh;
+}
+
+.text-box{
+  height: 18vh;
+  font-style: normal;
+  font-size: 3vw;
+  width: 80vw;
+}
+
+
+.text-box h2{
+  margin-top: 8vh;
+}
+
+
+.text-box h1{
+  width: 30vw;
+}
+
+.right-container h2{
+  margin-top: 8vh;
 }
 
 
@@ -3029,6 +3075,11 @@ margin-right: 1vw;
  #box4-text{
   font-size: 3vw;
  }
+
+
+
+
+
 
 }
 
