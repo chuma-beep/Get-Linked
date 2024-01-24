@@ -2502,6 +2502,12 @@ text-align: center;
   font-size: 2.5vw;
 }
 
+/* faqs section*/
+
+#FAQs{
+  height: 120vh;
+}
+
 
 #box-5-text{
   width: 100vw;
@@ -2570,6 +2576,9 @@ line-height: 27.5px;
   font-size: 4vw;
 }
 
+h3#h3-5{
+  margin-top: 10vh;
+}
 
   .box-5{
     margin-top: 10vh;
@@ -2581,10 +2590,12 @@ line-height: 27.5px;
     font-size: 3vw;
   } */
 
+ 
   #box-5-text{
-    margin-left: 0;;
+    font-size: 3vw;
+    width: 100vw;
+    margin-left: 0;
   }
-
 
 
   /* timeline */
@@ -3089,9 +3100,6 @@ margin-right: 1vw;
  #box4-text{
   font-size: 3vw;
  }
-
-
-
 
 
 
