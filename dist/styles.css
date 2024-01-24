@@ -2585,6 +2585,10 @@ line-height: 27.5px;
     margin-left: 0;;
   }
 
+
+
+  /* timeline */
+
 .box-6{
   font-size: 1vw;
   height: 180vh;
@@ -2600,20 +2604,31 @@ line-height: 27.5px;
 
 
 .container6{
-  height: 30vh;
+  height: 90vh;
 
 }
 
-
-
 .container6 h1{
-  font-size: 3vw;
+  font-size: 3.5vw;
+  font-style: normal;
+  width: 10vw;
+  font-family: Montserrat;
+font-size: 12px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+display: flex;
+flex-shrink: initial;
   
 }
 
-
 .timeline{
   height: 100vh;
+}
+
+.timeline h3{
+  font-size: 3vw;
 }
 
 .text-box{
@@ -2621,17 +2636,18 @@ line-height: 27.5px;
   font-style: normal;
   font-size: 3vw;
   width: 80vw;
+  padding-left: 10vw;
 }
 
 
 .text-box h2{
-  margin-top: 8vh;
+  margin-top: 12vh;
+  margin-left: 6vw;
 }
 
-/* 
-.text6{
-  width: ;
-} */
+.text-box h1{
+  padding-left: 0%;
+}
 
 .right-container h2{
   margin-top: 8vh;
