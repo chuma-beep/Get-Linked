@@ -2588,6 +2588,8 @@ line-height: 27.5px;
 .box-6{
   font-size: 1vw;
   height: 180vh;
+  margin-left: 25vw;
+  margin-right: 15vw;
 }
 
 
@@ -2603,14 +2605,10 @@ line-height: 27.5px;
 }
 
 
-.box-6{
-  margin-left: 25vw;
-}
-
 
 .container6 h1{
   font-size: 3vw;
-
+  
 }
 
 
@@ -2630,10 +2628,10 @@ line-height: 27.5px;
   margin-top: 8vh;
 }
 
-
-.text-box h1{
-  width: 30vw;
-}
+/* 
+.text6{
+  width: ;
+} */
 
 .right-container h2{
   margin-top: 8vh;
