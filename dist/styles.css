@@ -1623,6 +1623,7 @@ margin-top: 0.3vw;
       background-color: #150E28;
       font-family: 'Montserrat';
       box-sizing: border-box;
+      overflow-x: hidden;
       background-image:
         url("gallery/Getlinked (4)/Purple-Lens-Flare-PNG.png");
       background-repeat: no-repeat;
