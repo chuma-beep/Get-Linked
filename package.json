@@ -1,0 +1,15 @@
+{
+  "name": "get-linked",
+  "version": "1.0.0",
+  "description": "this projecty is a completion of the figame file below: https://www.figma.com/file/5WXTnOu1Yy7vjCDCGKSnib/Getlinked?node-id=3%3A9&mode=dev",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
