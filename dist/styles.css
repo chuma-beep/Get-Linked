@@ -1012,6 +1012,7 @@ line-height: normal;
   margin-left: 15vw;
 }
 
+/* prizes and rewards */
 
 #box-7 {
   display: flex;
@@ -1019,6 +1020,8 @@ line-height: normal;
   height: 70vw;
   padding-bottom: 5vh;
 margin-top: 20vh;
+background: url("gallery/Getlinked (4)/premium_photo-1664443577580-dd2674e9d359 1.png"), #150E28;;
+background-blend-mode: color-burn;
 }
 
 #box-7-1 {
@@ -2582,7 +2585,7 @@ text-align: center;
 
 
 
-@media screen and (max-width: 425px) and (min-width: 320px) and (-webkit-min-debkit-pixel-ratio: 1){
+ @media screen and (max-width: 430px){
 
   html,
   body {
@@ -2683,30 +2686,50 @@ text-align: center;
   width: 100vw;
   font-size: 1vw;
   align-items: center;
+  height: 80vh;
+}
+
+#box-2 img{
+  margin-left: 0vw;
 }
 
 
+h3#box2-txt3{
+  width: 100vw !important;
+  align-self: center;
+  font-size: 5vw;
+  padding-left: 20vw;
+  padding-right: 0;
+  align-items: center;
+  text-align: center;
+}
 
+#box-21{
+  width: 100vw;
+  text-align: center;
+  align-items: center;
+  margin-left: 0;
+}
 
-  #box21-text{
-    font-size: 2vw;
+  #box21-text #text{
+    font-size: 3vw;
     width: 40vw;
     line-height: 15.5px;
     text-align: center;
     font-family: Montserrat;
-    font-size: 2.5vw;
     font-style: normal;
     font-weight: 400;
   }
-
+/* 
  #box2-txt3{
     font-size: 3vw;
      font-style:normal;
-     text-align: left;
      font-family: Clash Display;
      font-style: normal;
      font-weight: 700;
-  }
+     width: 100vw !important;
+     padding: 0vw;
+  } */
 
 
 
@@ -2722,14 +2745,16 @@ text-align: center;
 
 
 
+
   #box31-text{
     color: #FFF;
     text-align: center;
     font-family: Montserrat;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 15.5px; /* 211.538% */
+    line-height: 27.5px; /* 211.538% */
+    width: 80vw;
   }
 
   #box-31{
@@ -2754,6 +2779,22 @@ text-align: center;
   font-size: 2.5vw;
 }
 
+
+
+#OverView{
+  margin-top: 0;
+  height: 100vh;
+  border: 1px solid transparent;
+}
+
+/* timeline */
+#box6{
+  height: 140vh;
+  border-bottom: 1px solid;
+  border-color:transparent;
+}
+
+
 /* faqs section*/
 
 #FAQs{
@@ -2768,7 +2809,6 @@ text-align: center;
 font-weight: 400;
 line-height: 27.5px;
  text-align: center;
- /* font-size: 3.5vw; */
  margin-bottom: 2vh;
 }
 
