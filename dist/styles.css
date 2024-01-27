@@ -2129,12 +2129,13 @@ line-height: 27.5px;
 
   .box-4 {
      width: 100vw;
-    min-height: 200vw;
+    min-height: 150vw;
     z-index: -1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center !important;
+    margin-top: 10vh;
   }
 
   .box4 {
@@ -2200,12 +2201,24 @@ line-height: 27.5px;
     height: 220vw;
   }
 
+  h3#h3-5{
+    font-size: 3vw;
+    width: 100vw;
+  }
 
 
   #box-5 {
     margin-left: 0vw;
     width: 100vw;
 
+  }
+
+  #box-5-text{
+    font-family: Montserrat;
+
+font-style: normal;
+font-weight: 400;
+line-height: 27.5px;
   }
 
   /* The container <div> - needed to position the dropdown content */
@@ -2258,7 +2271,11 @@ line-height: 27.5px;
     width: 60vw;
     margin-left: 15vw;
   }
-
+#box-51{
+width: 100vw;
+  align-self: center;
+  margin-left: 0%;
+}
 
   #box-5-text{
      margin-left: 25vw;
@@ -2275,20 +2292,25 @@ line-height: 27.5px;
     
   }
 
+  /* timeline section */
 
   .box-6 {
-    width: 100vw;
+    max-width: 80vw;
     height: 180vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 5%;
+    padding-left: 10vw;
     margin-top: 10vw;
   }
 
 
+
 .timeline{
-  margin: 10vw;
+  margin: 15vw;
+  width: 80vw;
+  padding-right: 10vw;
+  height: 110vh;
  }
 
 .right-container{
@@ -2314,6 +2336,7 @@ line-height: 27.5px;
   float: left;
   left: 4vw !important;
   padding-left: 0% !important;
+  margin-top: 5vh !important;
 }
 
 
@@ -2326,13 +2349,15 @@ line-height: 27.5px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  width: 100%;
+  width: 100vw;
   padding-left: 0px;
   padding-right: 0px;
 }
 
 .text-box{
   font-size: 13px;
+  width: 80vw;
+  height: 50vh;
 }
 
 .text-box h3{
@@ -2343,13 +2368,21 @@ line-height: 27.5px;
 left: 0%;
 font-style: normal;
 align-items: start;
-width: 100vw;
+width: 80vw;
 align-self: flex-start;
 h2{
   left: 25px;
 }
 
 }
+
+
+
+/* 
+.right-container{
+  width: 80vw;
+} */
+
 
 .left-container h3{
   left: -28px;
@@ -2364,6 +2397,9 @@ h2{
 }
 
 
+
+
+/* box 7 */
   #box-7 {
     display: flex;
     flex-direction: column;
