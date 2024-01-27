@@ -1619,16 +1619,16 @@ margin-top: 0.3vw;
   
   .box-1{
     display: flew;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
-    height: 100vh;
+    height: 40vh;
     margin-bottom: 10vw;
     margin-left: 0%;
   }
   
   .inner-box{
     font-style: normal;
-    height: 50vh;
+    height: 35vh;
   }
   
   #hero-p{
@@ -1637,17 +1637,13 @@ margin-top: 0.3vw;
   
   .inner-box-1 {
     position: relative;
-    width: 100vw;
-    height: 54vh;
+
+    height: 44vh;
     background-repeat: no-repeat;
     overflow: hidden;
-    background-image: url("gallery/Getlinked (4)/man-wearing-smart-glasses-touching-virtual-screen 1.png");
-    background-size: 50% 100%;
-    /* display: flex;
-    flex-direction: column;
-    align-items: flex-start; */
-    margin-left: 40vw;
-    margin-top: 3vw;
+    background-image: url("/gallery/Getlinked (4)/man-wearing-smart-glasses-touching-virtual-screen 1.png");
+    background-size: 100% 80%;
+    margin-top: 6.2vw;
     font-family: 'Onest', sans-serif;
    
   }
