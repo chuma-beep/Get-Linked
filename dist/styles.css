@@ -1596,7 +1596,7 @@ margin-top: 0.3vw;
 
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px){
   
  
   #main{
@@ -1692,6 +1692,9 @@ margin-bottom: 2vh;
   right: -2.8vw;
 }
 
+.right-container h2{
+  margin-left: 5vw;
+}
 
 
 .left-container h3{
