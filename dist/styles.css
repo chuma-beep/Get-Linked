@@ -1019,7 +1019,7 @@ line-height: normal;
   flex-direction: column;
   height: 70vw;
   padding-bottom: 5vh;
-margin-top: 20vh;
+margin-top: 10vh !important;
 background: url("gallery/Getlinked (4)/premium_photo-1664443577580-dd2674e9d359 1.png"), #150E28;;
 background-blend-mode: color-burn;
 }
