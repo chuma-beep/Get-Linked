@@ -1759,7 +1759,13 @@ line-height: 27.5px; /* 196.429% */
 
 #box10{
   margin-top: 10vh;
+  h3{
+    font-size: 2vw;
+  }
 }
+
+
+
 
 }
 
