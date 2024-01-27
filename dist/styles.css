@@ -1598,6 +1598,7 @@ margin-top: 0.3vw;
 
 @media screen and (max-width: 1024px){
   
+  /* first box */
  
   #main{
     width: 100vw;
@@ -1637,7 +1638,7 @@ margin-top: 0.3vw;
   .inner-box-1 {
     position: relative;
     width: 100vw;
-    height: 74vh;
+    height: 54vh;
     background-repeat: no-repeat;
     overflow: hidden;
     background-image: url("gallery/Getlinked (4)/man-wearing-smart-glasses-touching-virtual-screen 1.png");
@@ -1648,10 +1649,17 @@ margin-top: 0.3vw;
     margin-left: 40vw;
     margin-top: 3vw;
     font-family: 'Onest', sans-serif;
-    
+   
   }
   
+   #globe{
+    height: 30vh;
+   }
 
+
+
+
+  /* intro */
 
   #box2{
     height: 40vh;
