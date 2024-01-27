@@ -1598,7 +1598,7 @@ margin-top: 0.3vw;
 
 @media screen and (max-width: 1024px) {
   
-   
+ 
   #main{
     width: 100vw;
     align-self: center;
@@ -1662,10 +1662,17 @@ margin-top: 0.3vw;
   }
 
   #box-31{
-    height: 4 0vh;
+    height: 45vh;
   }
 
-
+ #box2-txt3{
+color: #FFF;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+margin-right: 15vw;
+margin-bottom: 2vh;
+ }
   /* FAQS */
 
 .box-5{
@@ -1675,8 +1682,25 @@ margin-top: 0.3vw;
 
 
 /* timeline */
+.container6{
+  padding: 3vw;
+}
 
 
+
+.right-container h3{
+  right: -2.8vw;
+}
+
+
+
+.left-container h3{
+  left: -2.5vw;
+}
+
+.left-container h2{
+  margin-right: 2vw;
+}
 
 
 
