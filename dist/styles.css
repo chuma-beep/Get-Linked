@@ -1764,7 +1764,15 @@ line-height: 27.5px; /* 196.429% */
   }
 }
 
+.follow-links img{
+  width: 1vw;
+  height: 1vw;
+}
 
+.foot-txt img{
+  width: 1vw;
+  height: 1vw;
+}
 
 
 }
