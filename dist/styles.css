@@ -2357,7 +2357,6 @@ width: 100vw;
 }
 
 
-
 .timeline::after{
   left: 0px;
 }
@@ -2942,11 +2941,10 @@ letter-spacing: 0em;
 text-align: center;
 width: 80vw;
 margin-left: 0%;
-
 }
-.text6{
-  font-family: Montserrat;
 
+
+.text6{
 font-family: Montserrat;
 font-style: normal;
 font-weight: 700;
