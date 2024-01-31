@@ -70,6 +70,7 @@ li {
 }
 
 
+
 a {
   background-image: linear-gradient(to right,
       #fe34ea,
@@ -113,11 +114,12 @@ a:hover::before {
   color: white;
   font-size: 3vw;
   font-weight: bold;
+
 }
 
 /* Add custom color to logo*/
 .logo-text {
-  color: #d434fe;
+  color: #d434fe !important;
 }
 
 /*Gradient button*/
