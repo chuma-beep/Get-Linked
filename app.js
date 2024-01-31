@@ -2,19 +2,36 @@
 const icons = document.querySelector('.icon');
 const navMenu = document.querySelector('.nav-list');
 
-//pop button query selectors
-const  button = document.getElementById("button");
-const closePopup = document.getElementById("closePopup");
-const myPopup = document.getElementById("myPopup")
-
 
 //nav function
 function mobileNav() {
     navMenu.classList.toggle('active');
     icons.classList.toggle("active");
+
 }
 
 icons.addEventListener('click', mobileNav);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//pop button query selectors
+const  button = document.getElementById("button");
+const closePopup = document.getElementById("closePopup");
+const myPopup = document.getElementById("myPopup")
+
 
 
 // //function to check if form is complete
