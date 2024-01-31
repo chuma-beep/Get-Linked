@@ -2639,6 +2639,8 @@ text-align: center;
     height: 80vh;
   }
 
+  /* hero section */
+ 
   .inner-box {
     height: 35vh;
     width: 100vw;
@@ -2668,6 +2670,7 @@ text-align: center;
     margin-top: 0vh;
     padding-bottom: 0;
     margin-left: 14vw;
+    align-self: baseline;
   }
 
 
@@ -2680,7 +2683,7 @@ text-align: center;
   #globe {
     display: flex;
     margin-left: 8vw;
-    margin-bottom: 9vh;
+    margin-bottom: 0vh;
     padding-bottom: 10vh;
     width: 60vw;
   }
