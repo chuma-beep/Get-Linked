@@ -2090,6 +2090,10 @@ line-height: 27.5px;
     margin-bottom: 10vw;
   }
 
+  
+.box3-text{
+  font-size: 4vw;
+}
 
 
    #box3{
@@ -2703,6 +2707,7 @@ text-align: center;
 }
 
 
+
 h3#box2-txt3{
   width: 100vw !important;
   align-self: center;
@@ -2871,6 +2876,7 @@ line-height: 27.5px;
 h3#h3-5{
   margin-top: 10vh;
 }
+
 
   .box-5{
     margin-top: 10vh;
@@ -3241,10 +3247,6 @@ article{
 
 
 
-
-
-
-
 #box10{
   margin-top: 50vh;
   width: 100vw;
@@ -3347,6 +3349,9 @@ height: 2vh;
 margin-right: 1vw;
 }
 
+#box3-text{
+  font-size: 5vw !important;
+}
 
 }
 
