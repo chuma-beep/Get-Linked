@@ -371,6 +371,9 @@ margin-right: 3vw;
   margin-right: 2vw;
 }
 
+label#label{
+  color: var(--white);
+}
 
 
 
