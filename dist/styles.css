@@ -2333,7 +2333,11 @@ width: 100vw;
     margin-top: 10vw;
   }
 
-
+ .box6-text{
+  p{
+    margin-left: 15vw;
+  }
+ }
 
 .timeline{
   margin: 15vw;
@@ -2404,12 +2408,6 @@ h2{
 
 }
 
-
-
-/* 
-.right-container{
-  width: 80vw;
-} */
 
 
 .left-container h3{
@@ -2634,6 +2632,7 @@ text-align: center;
 }
 
 
+
   #type-text {
     font-size: 4vw;
   }
@@ -2660,17 +2659,27 @@ text-align: center;
   #h1-text {
     font-size: 8vw;
     margin-top: 1.5vh;
+    margin-left: 4vw;
   }
 
   #h1-text img {
     width: 8vw;
   }
 
+  span.inline-container{
+    margin-left: 5vw;
+  }
+
   #hero-p {
     font-size: 3vw;
     margin-top: 1vh;
     padding-top: 1vh;
-    margin-left: 5vw;
+    margin-left: 0% !important;
+    width: 95vw;
+    font-family: Montserrat;
+    font-style: normal;
+    text-align: center
+    ;
   }
 
   .inner-box-1 {
@@ -2753,18 +2762,6 @@ h3#box2-txt3{
   h3#box3-text{
     font-size: 3vw !important;
   }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   .box-4{
