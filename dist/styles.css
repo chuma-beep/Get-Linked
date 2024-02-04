@@ -1860,6 +1860,10 @@ html body {
   margin-top: 5vh;
 }
 
+#main.container{
+ padding-left: 0% !important;
+}
+
 .typewriter{
   padding-right: 5vw;
 }
