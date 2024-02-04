@@ -692,6 +692,7 @@ h1,
   height: 3vh;
   min-width: 160px;
   z-index: 1;
+
 }
 
 
@@ -716,11 +717,12 @@ h1,
     top: 0.5vw;
 }
 
+
 .dropdown:hover{
   margin-bottom: 3vw;
   height: 1vw;
   z-index: 1;
-  transition: 0.5s;
+  transition: 0.5s ease-in-out;
 
 }
 
