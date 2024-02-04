@@ -2744,6 +2744,25 @@ h3#box2-txt3{
 
 
 
+  /* rules and guidelines */
+
+  h3#box3-text{
+    font-size: 3vw !important;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   .box-4{
     height: 140vh;
 
@@ -2753,7 +2772,7 @@ h3#box2-txt3{
     align-self:center;
     margin-left: 0;
   }
-
+ 
 
 /* FAQS */
 
@@ -2886,7 +2905,7 @@ h3#h3-5{
 
 
   .box-5{
-    margin-top: 10vh;
+    margin-top: 20vh;
     height: 100vh;
     margin-bottom: 10vh;
   }
@@ -3269,21 +3288,28 @@ article{
 
 
 
+#box101 h3{
+ font-size: 5vw;
+}
+
 #box101 p{
   display: flex;
   flex-direction: row;
   width: 50vw;
   font-style: normal;
+  font-size: 2vw;
 }
 
 .terms{
   display: flex;
   flex-direction: row;
   width: 100vw;
+ 
 }
 
 #terms p{
 width: 100vw;
+
 }
 
 
@@ -3298,6 +3324,10 @@ width: 100vw;
 
 #terms{
   width: 100vw;
+  a{
+    font-size: 2vw;
+    width: 14vw;
+  }
 }
 .terms{
   width: 100vw;
@@ -3328,6 +3358,9 @@ width: 100vw;
   margin-left: 10vw;
 font-weight: 400;
 line-height: 157.9%; /* 18.948px */
+h5{
+  font-size: 3vw;
+}
 }
 
 
@@ -3339,12 +3372,17 @@ line-height: 157.9%; /* 18.948px */
   margin-left: 0;
   left: 0;
   margin-top: 2vh;
+  p{
+    font-size: 2vw;
+    line-height: normal;
+    font-style: normal;
+  }
 }
 
 .num{
   display: flex;
   flex-direction: row;
-
+ font-size: 3vw;
 flex-wrap: nowrap;
 width: 100vw;
 }
@@ -3354,18 +3392,26 @@ width: 100vw;
 width: 2.5vw;
 height: 2vh;
 margin-right: 1vw;
+
 }
 
 #box3-text{
   font-size: 5vw !important;
 }
 
+.last-foot{
+  p{
+    font-size: 2.5vw;
+  }
+}
+
+
 }
 
 
 
  
-@media screen and (max-width: 320px) and (min-width: 280px) {
+@media screen and (max-width: 375px) and (min-width: 280px) {
 
 
   html,
@@ -3414,6 +3460,9 @@ margin-right: 1vw;
 
 }
 
+h3#box3-text{
+  font-size: 3vw !important;
+}
 
 #box-3{
   margin-left: 0%;
