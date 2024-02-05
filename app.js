@@ -12,7 +12,7 @@ function mobileNav() {
 }
 
 icons.addEventListener('click', mobileNav);
-
+//make nav toggle on mobile view.
 navMenu.addEventListener("click", mobileNav)
 
 
