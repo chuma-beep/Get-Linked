@@ -1,18 +1,19 @@
 //for icons
 const icons = document.querySelector('.icon');
 const navMenu = document.querySelector('.nav-list');
-const navElement = document.querySelectorAll('.nav-item')
+const navElement = document.getElementById('.nav-item')
 
 //nav function
 
 function mobileNav() {
     navMenu.classList.toggle('active');
     icons.classList.toggle("active");
+
 }
 
 icons.addEventListener('click', mobileNav);
 
-
+navMenu.addEventListener("click", mobileNav)
 
 
 
