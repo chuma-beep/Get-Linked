@@ -443,11 +443,7 @@ h1,
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
-  /*background-image:
-   linear-gradient(to top, transparent, rgba(117, 19, 93, 0.73)),
-  url("gallery/Getlinked (4)/man-wearing-smart-glasses-touching-virtual-screen 1.png"); */
   background-image: url("/gallery/Getlinked (4)/man-wearing-smart-glasses-touching-virtual-screen 1.png");
-  /*background: linear-gradient(rgba(29, 38, 113, 0), rgba(195, 55, 100, 0)); */
   margin-top: 3vw;
   font-family: 'Onest', sans-serif;
 }
