@@ -16,14 +16,6 @@ icons.addEventListener('click', mobileNav);
 navMenu.addEventListener("click", mobileNav)
 
 
-
-
-
-
-
-
-
-
 //pop button query selectors
 const  button = document.getElementById("button");
 const closePopup = document.getElementById("closePopup");
